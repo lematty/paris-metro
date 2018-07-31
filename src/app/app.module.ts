@@ -7,6 +7,7 @@ import { MapComponent } from './map/map.component';
 
 import { LineService } from './services/line.service';
 import { AgmCoreModule } from '@agm/core';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,9 @@ import { AgmCoreModule } from '@agm/core';
   ],
   imports: [
     BrowserModule,
+    AgmCoreModule.forRoot({
+      apiKey: environment.GOOGLE_MAPS_API_KEY
+    })
   ],
   providers: [LineService],
   bootstrap: [AppComponent]
