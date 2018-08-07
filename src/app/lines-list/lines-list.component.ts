@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ILine } from '../shared/line.model';
+import { Line } from '../shared/line.model';
 import { LineService } from '../services/line.service';
 
 @Component({
@@ -9,11 +9,16 @@ import { LineService } from '../services/line.service';
 })
 export class LinesListComponent implements OnInit {
 
-  lines: ILine[];
+  public lines = [];
 
   constructor(private _lineService: LineService) { }
 
   ngOnInit() {
+    this._lineService.getLines()
+      .subscribe(data => {
+        this.lines = data['features'];
+        console.log(this.lines);
+      });
   }
 
 }

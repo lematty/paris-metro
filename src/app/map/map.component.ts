@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { LineService } from '../services/line.service';
 
 @Component({
   selector: 'app-map',
@@ -7,9 +8,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MapComponent implements OnInit {
 
-  constructor() { }
+  latitude = 48.8566;
+  longitude = 2.3522;
+  zoom = 12;
+  geoJsonObject: Object;
 
-  ngOnInit() {
+  constructor(private _lineService: LineService) { }
+
+  getGeoJson(): void {
+    this._lineService.getGeoJson()
+      .subscribe(data => this.geoJsonObject = data);
   }
+  ngOnInit(): void {
+    this.getGeoJson();
+  }
+
 
 }

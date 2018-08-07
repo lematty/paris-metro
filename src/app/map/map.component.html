@@ -1,3 +1,4 @@
-<p>
-  map works!
-</p>
+<agm-map [latitude]="latitude" [longitude]="longitude" [zoom]="zoom">
+  <agm-data-layer *ngIf="geoJsonObject" [geoJson]="geoJsonObject" >
+  </agm-data-layer>
+</agm-map>

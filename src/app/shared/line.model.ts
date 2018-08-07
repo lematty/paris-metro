@@ -1,5 +1,5 @@
-export interface ILine {
-  id: number;
-  line: number;
+export interface Line {
+  line: string;
   color: string;
+  coordinates: number[];
 }
