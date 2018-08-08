@@ -1,3 +1,10 @@
-<ul *ngFor="let line of lines" class="list-group">
-  <li class="list-group-item list-group-item-action">{{ line.properties.line }}</li>
-</ul>
+<div class="row">
+  <div class="col">
+    <div ngbDropdown class="d-inline-block">
+      <button class="btn btn-outline-primary" id="dropdownBasic1" ngbDropdownToggle>Metro Lines</button>
+      <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+        <button  *ngFor="let line of lines" class="dropdown-item">{{ line }}</button>
+      </div>
+    </div>
+  </div>
+</div>

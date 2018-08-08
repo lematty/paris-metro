@@ -1,4 +1,15 @@
-<agm-map [latitude]="latitude" [longitude]="longitude" [zoom]="zoom">
-  <agm-data-layer *ngIf="geoJsonObject" [geoJson]="geoJsonObject" >
-  </agm-data-layer>
-</agm-map>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-2"></div>
+    <div class="col-lg-8">
+      <agm-map [latitude]="latitude" [longitude]="longitude" [zoom]="zoom">
+        <agm-polyline *ngFor="let line of lines" [strokeColor]="line.color">
+          <div *ngFor="let outer of line.coords">
+            <agm-polyline-point *ngFor="let inner of outer" [latitude]="inner[1]" [longitude]="inner[0]"></agm-polyline-point>
+          </div>
+        </agm-polyline>
+      </agm-map>
+    </div>
+    <div class="col-lg-2"></div>
+  </div>
+</div>

@@ -10,15 +10,19 @@ import { LineService } from '../services/line.service';
 export class LinesListComponent implements OnInit {
 
   public lines = [];
+  public coords = [];
 
   constructor(private _lineService: LineService) { }
 
   ngOnInit() {
     this._lineService.getLines()
       .subscribe(data => {
-        this.lines = data['features'];
-        console.log(this.lines);
+        for (let i = 0; i < data['features'].length; i++) {
+          this.lines.push(data['features'][i]['properties']['line']);
+          for (let j = 0; j < data['features'][i]['geometry']['coordinates'].length; j++) {
+            this.coords.push(data['features'][i]['geometry']['coordinates'][j]);
+          }
+        }
       });
   }
-
 }
