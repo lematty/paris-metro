@@ -22,12 +22,10 @@ export class MapComponent implements OnInit {
     this._lineService.getGeoJson()
       .subscribe(data => {
         for (let i = 0; i < data['features'].length; i++) {
-          // this.lines.push(data['features'][i]);
           this.lines.push({
             'coords': data['features'][i]['geometry']['coordinates'],
             'color': data['features'][i]['properties']['color']
           });
-          // console.log(data['features'][i]['properties']['color']);
         }
 
         this.lines.forEach(el => {

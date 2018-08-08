@@ -3,11 +3,11 @@
     <div class="col-lg-2"></div>
     <div class="col-lg-8">
       <agm-map [latitude]="latitude" [longitude]="longitude" [zoom]="zoom">
-        <agm-polyline *ngFor="let line of lines" [strokeColor]="line.color">
-          <div *ngFor="let outer of line.coords">
+        <div *ngFor="let line of lines">
+          <agm-polyline *ngFor="let outer of line.coords" [strokeColor]="line.color">
             <agm-polyline-point *ngFor="let inner of outer" [latitude]="inner[1]" [longitude]="inner[0]"></agm-polyline-point>
-          </div>
-        </agm-polyline>
+          </agm-polyline>
+        </div>
       </agm-map>
     </div>
     <div class="col-lg-2"></div>
