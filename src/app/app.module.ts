@@ -9,13 +9,16 @@ import { MapComponent } from './map/map.component';
 
 import { LineService } from './services/line.service';
 import { environment } from '../environments/environment';
+import {TrainTramService} from './services/train-tram.service';
+import { TramMapComponent } from './tram-map/tram-map.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     LinesListComponent,
-    MapComponent
+    MapComponent,
+    TramMapComponent
   ],
   imports: [
     BrowserModule,
@@ -25,7 +28,10 @@ import { environment } from '../environments/environment';
       apiKey: environment.GOOGLE_MAPS_API_KEY
     })
   ],
-  providers: [LineService],
+  providers: [
+    LineService,
+    TrainTramService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

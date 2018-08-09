@@ -1,10 +1,32 @@
-<div class="row">
-  <div class="col">
-    <div ngbDropdown class="d-inline-block">
-      <button class="btn btn-outline-primary" id="dropdownBasic1" ngbDropdownToggle>Metro Lines</button>
-      <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
-        <button  *ngFor="let line of lines" class="dropdown-item">{{ line }}</button>
-      </div>
+<div class="btn-group mr-3">
+  <div class="btn-group" ngbDropdown role="group" aria-label="Button group with nested dropdown">
+    <button class="btn btn-outline-primary" ngbDropdownToggle>Metro Lines</button>
+    <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+      <button  *ngFor="let line of lines" class="dropdown-item">{{ line }}</button>
+    </div>
+  </div>
+  <div class="btn-group" ngbDropdown role="group" aria-label="Button group with nested dropdown">
+    <button class="btn btn-outline-success" ngbDropdownToggle>RER Lines</button>
+    <div class="dropdown-menu" ngbDropdownMenu>
+      <button class="dropdown-item">One</button>
+      <button class="dropdown-item">Two</button>
+      <button class="dropdown-item">Four!</button>
+    </div>
+  </div>
+  <div class="btn-group" ngbDropdown role="group" aria-label="Button group with nested dropdown">
+    <button class="btn btn-outline-info" ngbDropdownToggle>Daytime Bus Routes</button>
+    <div class="dropdown-menu" ngbDropdownMenu>
+      <button class="dropdown-item">One</button>
+      <button class="dropdown-item">Two</button>
+      <button class="dropdown-item">Four!</button>
+    </div>
+  </div>
+  <div class="btn-group" ngbDropdown role="group" aria-label="Button group with nested dropdown">
+    <button class="btn btn-outline-dark" ngbDropdownToggle>Nighttime Bus Routes</button>
+    <div class="dropdown-menu" ngbDropdownMenu>
+      <button class="dropdown-item">One</button>
+      <button class="dropdown-item">Two</button>
+      <button class="dropdown-item">Four!</button>
     </div>
   </div>
 </div>

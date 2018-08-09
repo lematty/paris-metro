@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { LineService } from '../services/line.service';
-import {forEach} from '@angular/router/src/utils/collection';
-import {element} from 'protractor';
+import { TrainTramService } from '../services/train-tram.service';
 
 @Component({
   selector: 'app-map',
@@ -27,14 +26,6 @@ export class MapComponent implements OnInit {
             'color': data['features'][i]['properties']['color']
           });
         }
-
-        this.lines.forEach(el => {
-          el.coords.forEach(outer => {
-            outer.forEach(inner => {
-              // console.log(inner[0]);
-            });
-          });
-        });
       });
   }
   ngOnInit() {
