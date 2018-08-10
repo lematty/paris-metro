@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {TrainTramService} from '../services/train-tram.service';
-import {ActivatedRoute} from '@angular/router';
+import { TrainTramService } from '../services/train-tram.service';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-detail',
@@ -13,12 +13,13 @@ export class DetailComponent implements OnInit {
   zoom = 12;
   selectedVal: string;
   selectedLines = [];
-  constructor(private trainTramService: TrainTramService, private route: ActivatedRoute) { }
+  constructor(private _trainTramService: TrainTramService, private route: ActivatedRoute) { }
 
   ngOnInit() {
     const id = this.route.snapshot.paramMap.get('id');
+    console.log(id);
     this.selectedVal = id.replace('%20', ' ');
-    this.trainTramService.getData()
+    this._trainTramService.getData()
       .subscribe(data => {
         for (let i = 0; i < data['features'].length; i++) {
           if (data['features'][i]['properties']['res_com'] === this.selectedVal) {

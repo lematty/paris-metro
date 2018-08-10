@@ -11,7 +11,6 @@ export class LinesListComponent implements OnInit {
 
   public metroLines = [];
   public rerLines = [];
-  private rerLetters = ['A', 'B', 'C', 'D', 'E'];
 
   constructor(private _trainTramService: TrainTramService, private router: Router) { }
 
@@ -19,16 +18,15 @@ export class LinesListComponent implements OnInit {
     this._trainTramService.getData()
       .subscribe(data => {
         for (let i = 0; i < data['features'].length; i++) {
-          for (let j = 0; j < 15; j++) {
-            if (data['features'][i]['properties']['res_com'] === 'M' + [j].toString()
-              && (!this.metroLines.includes('M' + [j].toString()))) {
-              this.metroLines.push(data['features'][i]['properties']['res_com']);
-            }
+          const line = data['features'][i]['properties']['res_com'];
+          if ((line.includes('RER')) && (!this.rerLines.includes(line))) {
+            this.rerLines.push(line);
+            continue;
           }
-          for (let j = 0; j < this.rerLetters.length; j++) {
-            if (data['features'][i]['properties']['res_com'] === 'RER ' + this.rerLetters[j]
-              && (!this.rerLines.includes('RER ' + this.rerLetters[j]))) {
-              this.rerLines.push(data['features'][i]['properties']['res_com']);
+          for (let j = 0; j < 15; j++) {
+            if (line === 'M' + [j].toString()
+              && (!this.metroLines.includes('M' + [j].toString()))) {
+              this.metroLines.push(line);
             }
           }
         }
