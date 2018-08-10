@@ -11,18 +11,22 @@ import { LineService } from './services/line.service';
 import { environment } from '../environments/environment';
 import {TrainTramService} from './services/train-tram.service';
 import { TramMapComponent } from './tram-map/tram-map.component';
+import { DetailComponent } from './detail/detail.component';
+import {AppRoutingModule, routingComponents} from './app-routing.module';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    LinesListComponent,
+    routingComponents,
+    TramMapComponent,
     MapComponent,
-    TramMapComponent
+    DetailComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
+    AppRoutingModule,
     NgbModule.forRoot(),
     AgmCoreModule.forRoot({
       apiKey: environment.GOOGLE_MAPS_API_KEY

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Line } from '../shared/line.model';
-import { LineService } from '../services/line.service';
+import {TrainTramService} from '../services/train-tram.service';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-lines-list',
@@ -9,20 +9,36 @@ import { LineService } from '../services/line.service';
 })
 export class LinesListComponent implements OnInit {
 
-  public lines = [];
-  public coords = [];
+  public metroLines = [];
+  public rerLines = [];
+  private rerLetters = ['A', 'B', 'C', 'D', 'E'];
 
-  constructor(private _lineService: LineService) { }
+  constructor(private _trainTramService: TrainTramService, private router: Router) { }
 
   ngOnInit() {
-    this._lineService.getLines()
+    this._trainTramService.getData()
       .subscribe(data => {
         for (let i = 0; i < data['features'].length; i++) {
-          this.lines.push(data['features'][i]['properties']['line']);
-          for (let j = 0; j < data['features'][i]['geometry']['coordinates'].length; j++) {
-            this.coords.push(data['features'][i]['geometry']['coordinates'][j]);
+          for (let j = 0; j < 15; j++) {
+            if (data['features'][i]['properties']['res_com'] === 'M' + [j].toString()
+              && (!this.metroLines.includes('M' + [j].toString()))) {
+              this.metroLines.push(data['features'][i]['properties']['res_com']);
+            }
+          }
+          for (let j = 0; j < this.rerLetters.length; j++) {
+            if (data['features'][i]['properties']['res_com'] === 'RER ' + this.rerLetters[j]
+              && (!this.rerLines.includes('RER ' + this.rerLetters[j]))) {
+              this.rerLines.push(data['features'][i]['properties']['res_com']);
+            }
           }
         }
+        this.metroLines.sort();
+        this.rerLines.sort();
+        console.log(this.rerLines);
       });
+  }
+
+  onSelect(id) {
+    this.router.navigate(['/map', id]);
   }
 }

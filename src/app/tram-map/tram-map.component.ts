@@ -12,27 +12,22 @@ export class TramMapComponent implements OnInit {
   zoom = 12;
   tramLines = [];
   reseaux = [];
-  queryVal = 'TRAMWAY';
+  queryVal = 1;
+  details = 'metro';
 
   constructor(private trainTramService: TrainTramService) { }
 
   ngOnInit() {
     this.trainTramService.getData()
       .subscribe(data => {
-        console.log(data);
         for (let i = 0; i < data['features'].length; i++) {
-          if (data['features'][i]['properties']['reseau'] === this.queryVal) {
+          if (data['features'][i]['properties']['metro'] === this.queryVal) {
             this.tramLines.push(data['features'][i]['geometry']['coordinates']);
           }
-          if (!this.reseaux.includes(data['features'][i]['properties']['reseau'])) {
-            this.reseaux.push(data['features'][i]['properties']['reseau']);
+          if (!this.reseaux.includes(data['features'][i]['properties'][this.details])) {
+            this.reseaux.push(data['features'][i]['properties'][this.details]);
           }
-          // console.log(data['features'][i]['properties']['reseau']);
         }
-        // for (const test in data['features']) {
-        //   console.log(test);
-        // }
-        console.log(data['features']);
         console.log(this.reseaux);
       });
   }

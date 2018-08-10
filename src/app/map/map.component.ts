@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { LineService } from '../services/line.service';
-import { TrainTramService } from '../services/train-tram.service';
 
 @Component({
   selector: 'app-map',
