@@ -9,9 +9,8 @@ import { LineService } from '../services/line.service';
 export class MapComponent implements OnInit {
 
   latitude = 48.8566;
-  longitude = 2.3522;
+  longitude = 2.34;
   zoom = 12;
-  geoJsonObject: Object;
   lines = [];
 
   constructor(private _lineService: LineService) { }

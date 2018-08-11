@@ -13,6 +13,7 @@ import {TrainTramService} from './services/train-tram.service';
 import { TramMapComponent } from './tram-map/tram-map.component';
 import { DetailComponent } from './detail/detail.component';
 import {AppRoutingModule, routingComponents} from './app-routing.module';
+import { ErrorComponent } from './error/error.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import {AppRoutingModule, routingComponents} from './app-routing.module';
     routingComponents,
     TramMapComponent,
     MapComponent,
-    DetailComponent
+    DetailComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,

@@ -2,10 +2,13 @@ import { NgModule } from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
 import {LinesListComponent} from './lines-list/lines-list.component';
 import {DetailComponent} from './detail/detail.component';
+import {ErrorComponent} from './error/error.component';
+import {MapComponent} from './map/map.component';
 
 const routes: Routes = [
-  // { path: '', component: LinesListComponent },
-  { path: 'map/:id', component: DetailComponent }
+  { path: '', component: MapComponent },
+  { path: 'map/:id', component: DetailComponent },
+  { path: '**', component: ErrorComponent }
 ];
 
 @NgModule({
