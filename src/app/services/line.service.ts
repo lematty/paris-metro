@@ -15,7 +15,7 @@ export class LineService {
   getLines(): Observable<FeatureCollection> {
     return this.http.get<FeatureCollection>(this._url);
   }
-  getGeoJson() {
-    return this.http.get(this._url);
+  getGeoJson(): Observable<FeatureCollection> {
+    return this.http.get<FeatureCollection>(this._url);
   }
 }

@@ -15,7 +15,7 @@ export class MapComponent implements OnInit {
 
   constructor(private _lineService: LineService) { }
 
-  getGeoJson() {
+  ngOnInit() {
     this._lineService.getGeoJson()
       .subscribe(data => {
         for (let i = 0; i < data['features'].length; i++) {
@@ -25,9 +25,5 @@ export class MapComponent implements OnInit {
           });
         }
       });
-  }
-  ngOnInit() {
-    this.getGeoJson();
-    console.log(this.lines);
   }
 }

@@ -5,8 +5,8 @@
     <div class="col-lg-2"></div>
     <div class="col-lg-8">
       <agm-map [latitude]="latitude" [longitude]="longitude" [zoom]="zoom">
-        <agm-polyline *ngFor="let line of selectedLines" [strokeColor]="line.color">
-          <agm-polyline-point *ngFor="let inner of line" [latitude]="inner[1]" [longitude]="inner[0]"></agm-polyline-point>
+        <agm-polyline *ngFor="let line of selectedLines">
+          <agm-polyline-point *ngFor="let coords of line" [latitude]="coords[1]" [longitude]="coords[0]"></agm-polyline-point>
         </agm-polyline>
       </agm-map>
     </div>
