@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { Line } from '../shared/line.model';
+import { FeatureCollection } from '../geojson';
 
 @Injectable({
   providedIn: 'root'
@@ -12,8 +12,8 @@ export class LineService {
 
   constructor(private http: HttpClient) { }
 
-  getLines(): Observable<Line[]> {
-    return this.http.get<Line[]>(this._url);
+  getLines(): Observable<FeatureCollection> {
+    return this.http.get<FeatureCollection>(this._url);
   }
   getGeoJson() {
     return this.http.get(this._url);

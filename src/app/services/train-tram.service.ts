@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
+import { FeatureCollection } from '../geojson';
 
 @Injectable({
   providedIn: 'root'
@@ -12,7 +13,7 @@ export class TrainTramService {
 
   constructor(private http: HttpClient) { }
 
-  getData(): Observable<any>  {
-    return this.http.get(this._url);
+  getData(): Observable<FeatureCollection>  {
+    return this.http.get<FeatureCollection>(this._url);
   }
 }

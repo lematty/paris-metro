@@ -1,5 +1,3 @@
-import {Point} from '@agm/core/services/google-maps-types';
-
 export interface IGeometry {
   type: string;
   coordinates: any[];
@@ -15,15 +13,15 @@ export class GeoJson implements IGeoJson {
   type: 'Feature';
   geometry: IGeometry;
 
-  constructor(coordinates, public properties?) {
+  constructor(coordinates, type, public properties?) {
     this.geometry = {
-      type: 'MultiLineString',
+      type: type,
       coordinates: coordinates
     };
   }
 }
 
 export class FeatureCollection {
-  type: FeatureCollection;
+  type: 'FeatureCollection';
   constructor(public features: Array<GeoJson>) {}
 }
