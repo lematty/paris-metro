@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { LineService } from '../services/line.service';
+import { Map, LngLat } from 'mapbox-gl';
 
 @Component({
   selector: 'app-map',
@@ -7,10 +8,9 @@ import { LineService } from '../services/line.service';
   styleUrls: ['./map.component.css']
 })
 export class MapComponent implements OnInit {
-
-  latitude = 48.8566;
-  longitude = 2.34;
-  zoom = 12;
+  map: Map;
+  coordinates = [2.34, 48.8566];
+  zoom = 11;
   lines = [];
 
   constructor(private _lineService: LineService) { }

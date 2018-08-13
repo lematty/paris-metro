@@ -12,9 +12,9 @@ import { environment } from '../environments/environment';
 import {TrainTramService} from './services/train-tram.service';
 import { TramMapComponent } from './tram-map/tram-map.component';
 import { DetailComponent } from './detail/detail.component';
-import {AppRoutingModule, routingComponents} from './app-routing.module';
+import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { ErrorComponent } from './error/error.component';
-
+import { NgxMapboxGLModule } from 'ngx-mapbox-gl';
 
 @NgModule({
   declarations: [
@@ -32,6 +32,9 @@ import { ErrorComponent } from './error/error.component';
     NgbModule.forRoot(),
     AgmCoreModule.forRoot({
       apiKey: environment.GOOGLE_MAPS_API_KEY
+    }),
+    NgxMapboxGLModule.withConfig({
+      accessToken: environment.MAPBOX_API_KEY,
     })
   ],
   providers: [
