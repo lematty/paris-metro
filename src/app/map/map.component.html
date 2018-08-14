@@ -3,27 +3,20 @@
     <div class="col-lg-2"></div>
     <div class="col-lg-8">
       <mgl-map
-        [style]="'mapbox://styles/mapbox/streets-v9'"
+        [style]="'mapbox://styles/mapbox/dark-v9'"
         [zoom]="[zoom]"
         [center]="coordinates"
       >
-        <!--<div *ngFor="let line of lines">-->
-        <!--<agm-polyline *ngFor="let outer of line.coords" [strokeColor]="line.color">-->
-        <!--<agm-polyline-point *ngFor="let inner of outer" [latitude]="inner[1]" [longitude]="inner[0]"></agm-polyline-point>-->
-        <!--</agm-polyline>-->
-        <!--</div>-->
-
-        <div *ngFor="let line of lines">
-          <mgl-layer *ngFor="let outer of line.coords"
-            id="metro-line"
+          <mgl-layer
+            id="metro-lines"
             type="line"
-            [source]="states"
+            [source]=lines
             [paint]="{
-        'line-color': '#627BC1',
-        'line-width': 2
-      }"
-          ></mgl-layer>
-          </div>
+              'line-color': color,
+              'line-width': 2
+            }"
+          >
+          </mgl-layer>
       </mgl-map>
     </div>
     <div class="col-lg-2"></div>

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { LineService } from '../services/line.service';
-import { Map, LngLat } from 'mapbox-gl';
+import { Map } from 'mapbox-gl';
 
 @Component({
   selector: 'app-map',
@@ -10,20 +10,23 @@ import { Map, LngLat } from 'mapbox-gl';
 export class MapComponent implements OnInit {
   map: Map;
   coordinates = [2.34, 48.8566];
-  zoom = 11;
-  lines = [];
+  zoom = 10.7;
+  lines: any;
+  color = {
+    'type': 'identity',
+    'property': 'color'
+  }
 
   constructor(private _lineService: LineService) { }
 
   ngOnInit() {
-    this._lineService.getGeoJson()
+    this._lineService.getLines()
       .subscribe(data => {
-        for (let i = 0; i < data['features'].length; i++) {
-          this.lines.push({
-            'coords': data['features'][i]['geometry']['coordinates'],
-            'color': data['features'][i]['properties']['color']
-          });
-        }
+        this.lines = {
+          type: 'geojson',
+          data: data
+        };
+        console.log(this.lines);
       });
   }
 }

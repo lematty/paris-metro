@@ -32,7 +32,6 @@ export class LinesListComponent implements OnInit {
         }
         this.metroLines.sort();
         this.rerLines.sort();
-        console.log(this.rerLines);
       });
   }
 
