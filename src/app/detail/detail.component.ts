@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { TrainTramService } from '../services/train-tram.service';
-import {ActivatedRoute, ParamMap} from '@angular/router';
-import {switchMap} from 'rxjs/operators';
+import { ActivatedRoute } from '@angular/router';
+import { FeatureCollection } from '../geojson';
+import { LineService } from '../services/line.service';
 
 @Component({
   selector: 'app-detail',
@@ -11,34 +11,37 @@ import {switchMap} from 'rxjs/operators';
 export class DetailComponent implements OnInit {
   latitude: number;
   longitude: number;
-  zoom = 12;
+  zoom = 11;
+  color = {
+    'type': 'identity',
+    'property': 'color'
+  };
   selectedVal: string;
-  selectedLines: Array<Array<Array<number>>>;
-  constructor(private _trainTramService: TrainTramService, private route: ActivatedRoute) {
+  source: object;
+  selectedLines: FeatureCollection;
+  constructor(private _lineService: LineService, private route: ActivatedRoute) {
     route.params
       .subscribe(params => {
-        this.selectedLines = [];
-        this.latitude = 0;
-        this.longitude = 0;
-        this.selectedVal = params['id'].replace('%20', ' ');
-        this._trainTramService.getData()
+        this.selectedLines = {
+          'type' : 'FeatureCollection',
+          'features' : []
+        };
+        this.latitude = 48.8566;
+        this.longitude = 2.34;
+        this.selectedVal = params['id'];
+        this._lineService.getLines()
           .subscribe(data => {
-            console.log(data);
             for (let i = 0; i < data['features'].length; i++) {
-              if (data['features'][i]['properties']['res_com'] === this.selectedVal) {
-                this.selectedLines.push(data['features'][i]['geometry']['coordinates']);
-                this.latitude += data['features'][i]['properties']['geo_point_2d'][0];
-                this.longitude += data['features'][i]['properties']['geo_point_2d'][1];
-              }
-              if (data['features'][i]['properties']['res_com'] === this.selectedVal) {
-                this.selectedLines.push(data['features'][i]['geometry']['coordinates']);
-                this.latitude += data['features'][i]['properties']['geo_point_2d'][0];
-                this.longitude += data['features'][i]['properties']['geo_point_2d'][1];
+              if (data['features'][i]['properties']['line'] === this.selectedVal) {
+                this.selectedLines['features'].push(data['features'][i]);
+                break;
               }
             }
-            this.longitude = this.longitude / this.selectedLines.length;
-            this.latitude = this.latitude / this.selectedLines.length;
           });
+        this.source = {
+          type: 'geojson',
+          data: this.selectedLines
+        };
         }
       );
   }

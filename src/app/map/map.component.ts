@@ -11,11 +11,11 @@ export class MapComponent implements OnInit {
   map: Map;
   coordinates = [2.34, 48.8566];
   zoom = 10.7;
-  lines: any;
+  lines: object;
   color = {
     'type': 'identity',
     'property': 'color'
-  }
+  };
 
   constructor(private _lineService: LineService) { }
 
@@ -26,7 +26,6 @@ export class MapComponent implements OnInit {
           type: 'geojson',
           data: data
         };
-        console.log(this.lines);
       });
   }
 }

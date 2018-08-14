@@ -1,15 +1,24 @@
-
-
 <div class="container">
   <div class="row">
-    <div class="col-lg-2"></div>
-    <div class="col-lg-8">
-      <agm-map [latitude]="latitude" [longitude]="longitude" [zoom]="zoom">
-        <agm-polyline *ngFor="let line of selectedLines">
-          <agm-polyline-point *ngFor="let coords of line" [latitude]="coords[1]" [longitude]="coords[0]"></agm-polyline-point>
-        </agm-polyline>
-      </agm-map>
+    <div class="col-lg-1"></div>
+    <div class="col-lg-10">
+      <mgl-map
+        [style]="'mapbox://styles/mapbox/dark-v9'"
+        [zoom]="[zoom]"
+        [center]="[longitude, latitude]"
+      >
+        <mgl-layer
+          id="metro-lines"
+          type="line"
+          [source]=source
+          [paint]="{
+              'line-color': color,
+              'line-width': 2
+            }"
+        >
+        </mgl-layer>
+      </mgl-map>
     </div>
-    <div class="col-lg-2"></div>
+    <div class="col-lg-1"></div>
   </div>
 </div>
