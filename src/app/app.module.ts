@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { LinesListComponent } from './lines-list/lines-list.component';
 import { MapComponent } from './map/map.component';
 
-import { LineService } from './services/line.service';
+import { MetroService } from './services/metro.service';
 import { environment } from '../environments/environment';
 import {TrainTramService} from './services/train-tram.service';
 import { TramMapComponent } from './tram-map/tram-map.component';
@@ -38,7 +38,7 @@ import { NgxMapboxGLModule } from 'ngx-mapbox-gl';
     })
   ],
   providers: [
-    LineService,
+    MetroService,
     TrainTramService
   ],
   bootstrap: [AppComponent]

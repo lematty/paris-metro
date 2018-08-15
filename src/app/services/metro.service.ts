@@ -6,7 +6,7 @@ import { FeatureCollection } from '../geojson';
 @Injectable({
   providedIn: 'root'
 })
-export class LineService {
+export class MetroService {
 
   private _url = '../../assets/geojson/paris-metro-lines.geojson';
 

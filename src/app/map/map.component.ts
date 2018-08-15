@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { LineService } from '../services/line.service';
+import { MetroService } from '../services/metro.service';
 import { Map } from 'mapbox-gl';
 
 @Component({
@@ -17,10 +17,10 @@ export class MapComponent implements OnInit {
     'property': 'color'
   };
 
-  constructor(private _lineService: LineService) { }
+  constructor(private _metroService: MetroService) { }
 
   ngOnInit() {
-    this._lineService.getLines()
+    this._metroService.getLines()
       .subscribe(data => {
         this.lines = {
           type: 'geojson',

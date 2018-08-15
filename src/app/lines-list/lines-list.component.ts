@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { LineService } from '../services/line.service';
+import { MetroService } from '../services/metro.service';
 
 @Component({
   selector: 'app-lines-list',
@@ -12,13 +12,13 @@ export class LinesListComponent implements OnInit {
   public metroLines = [];
   public rerLines = [];
 
-  constructor(private _lineService: LineService, private router: Router) { }
+  constructor(private _metroService: MetroService, private router: Router) { }
 
   ngOnInit() {
-    this._lineService.getLines()
+    this._metroService.getLines()
       .subscribe(data => {
         for (let i = 0; i < data['features'].length; i++) {
-          this.metroLines.push(data['features'][i]['properties']['line']);
+          this.metroLines.push(data['features'][i]['properties']['name']);
         }
       });
   }
