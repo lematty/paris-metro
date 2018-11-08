@@ -17,39 +17,23 @@ export class DetailComponent implements OnInit {
     'type': 'identity',
     'property': 'color'
   };
-  selectedVal: string;
+  selectedLine: string;
   source: object;
-  selectedLines: FeatureCollection;
 
   constructor(private _metroService: MetroService, private route: ActivatedRoute) {
     route.params
       .subscribe(params => {
-        this.selectedVal = params['id'];
+        this.selectedLine = params['id'];
       });
     this.latitude = 48.8566;
     this.longitude = 2.34;
-    this.selectedLines = {
-      'type' : 'FeatureCollection',
-      'features' : []
-    };
-    this._metroService.getLines()
-      .subscribe(data => {
-        console.log(this.selectedVal);
-        for (let i = 0; i < data['features'].length; i++) {
-          console.log(data['features'][i]['properties']['name']);
-          if (data['features'][i]['properties']['name'] === this.selectedVal) {
-            console.log(data['features'][i]);
-            this.selectedLines['features'].push(data['features'][i]);
-            break;
-          }
-        }
-        this.source = {
-          type: 'geojson',
-          data: this.selectedLines
-        };
-      });
+    this.getLineInfo(this.selectedLine);
   }
 
   ngOnInit() {
+  }
+
+  async getLineInfo(line) {
+    this.source = await this._metroService.getOneLine(line);
   }
 }

@@ -20,12 +20,10 @@ export class MapComponent implements OnInit {
   constructor(private _metroService: MetroService) { }
 
   ngOnInit() {
-    this._metroService.getLines()
-      .subscribe(data => {
-        this.lines = {
-          type: 'geojson',
-          data: data
-        };
-      });
+    this.getLines();
+  }
+
+  async getLines() {
+    this.lines = await this._metroService.getAllLineCoords();
   }
 }

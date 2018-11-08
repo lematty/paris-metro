@@ -15,12 +15,7 @@ export class LinesListComponent implements OnInit {
   constructor(private _metroService: MetroService, private router: Router) { }
 
   ngOnInit() {
-    this._metroService.getLines()
-      .subscribe(data => {
-        for (let i = 0; i < data['features'].length; i++) {
-          this.metroLines.push(data['features'][i]['properties']['name']);
-        }
-      });
+    this.metroLines = this._metroService.getAllLineNames();
   }
 
   onSelect(id) {
