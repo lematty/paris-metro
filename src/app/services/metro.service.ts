@@ -1,61 +1,52 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { FeatureCollection } from '../geojson';
+import { FeatureCollection } from '../feature-collection';
+import { IMapboxSource } from '../mapbox-source';
 
 @Injectable({
   providedIn: 'root'
 })
 export class MetroService {
 
-  private _url = '../../assets/geojson/paris-metro-lines.geojson';
-  private metroLinesCoords: any;
-  private metroLineNames = [];
-  private data: FeatureCollection;
-  private source: any;
-  private selectedLine = {
-    'type' : 'FeatureCollection',
-    'features' : []
-  };
+  private _metroLinesUrl = '../../assets/geojson/paris-metro-lines.geojson';
+  private _metroStopsUrl = '../../assets/geojson/paris-metro-stops.geojson';
 
   constructor(private http: HttpClient) { }
 
-  async getAllLineCoords(): Promise<FeatureCollection> {
-    this.data = await this.http.get<FeatureCollection>(this._url).toPromise();
-    this.metroLinesCoords = {
-            type: 'geojson',
-            data: this.data
-          };
-    return this.metroLinesCoords;
+  async getAllLineCoords(): Promise<IMapboxSource> {
+    const data = await this.http.get<FeatureCollection>(this._metroLinesUrl).toPromise();
+    return { type: 'geojson', data: data };
   }
 
   getAllLineNames() {
-    this.http.get<FeatureCollection>(this._url)
+    const metroLineNames = [];
+    this.http.get<FeatureCollection>(this._metroLinesUrl)
       .subscribe(data => {
         for (let i = 0; i < data['features'].length; i++) {
-          this.metroLineNames.push(data['features'][i]['properties']['name']);
+          metroLineNames.push(data['features'][i]['properties']['name']);
         }
       });
-    return this.metroLineNames;
+    return metroLineNames;
   }
 
-  async getOneLine(lineNumber): Promise<FeatureCollection> {
-    this.data = await this.http.get<FeatureCollection>(this._url).toPromise();
-    for (let i = 0; i < this.data['features'].length; i++) {
-      // console.log(this.data['features'][i]['properties']['name']);
-      if (this.data['features'][i]['properties']['name'] === lineNumber) {
-        // console.log(this.data['features'][i]);
-        this.selectedLine['features'].push(this.data['features'][i]);
+  async getOneLine(lineNumber): Promise<IMapboxSource> {
+    const line: FeatureCollection = {
+      type: 'FeatureCollection',
+      features: [],
+    };
+    const data = await this.http.get<FeatureCollection>(this._metroLinesUrl).toPromise();
+    for (let i = 0; i < data['features'].length; i++) {
+      if (data['features'][i]['properties']['name'] === lineNumber) {
+        line['features'].push(data['features'][i]);
         break;
       }
     }
-    this.source = {
-      type: 'geojson',
-      data: this.selectedLine
-    };
-    return this.source;
+    return { type: 'geojson', data: line };
   }
-  getGeoJson(): string {
-    return this._url;
+
+  async getAllStationCoords(): Promise<IMapboxSource> {
+    const data = await this.http.get<FeatureCollection>(this._metroStopsUrl).toPromise();
+    return { type: 'geojson', data: data };
   }
 }

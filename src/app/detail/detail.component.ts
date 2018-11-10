@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { FeatureCollection } from '../geojson';
 import { MetroService } from '../services/metro.service';
+import { IMapboxSource } from '../mapbox-source';
 
 @Component({
   selector: 'app-detail',
@@ -17,23 +17,24 @@ export class DetailComponent implements OnInit {
     'type': 'identity',
     'property': 'color'
   };
-  selectedLine: string;
-  source: object;
+  line: string;
+  source: IMapboxSource;
 
   constructor(private _metroService: MetroService, private route: ActivatedRoute) {
-    route.params
-      .subscribe(params => {
-        this.selectedLine = params['id'];
-      });
+    this.getParameters();
     this.latitude = 48.8566;
     this.longitude = 2.34;
-    this.getLineInfo(this.selectedLine);
+    this.getLineInfo(this.line);
   }
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
   async getLineInfo(line) {
     this.source = await this._metroService.getOneLine(line);
+  }
+
+  async getParameters() {
+    await this.route.params
+      .subscribe(params => { this.line = params['id']; });
   }
 }
