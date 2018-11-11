@@ -17,24 +17,26 @@ export class DetailComponent implements OnInit {
     'type': 'identity',
     'property': 'color'
   };
-  line: string;
-  source: IMapboxSource;
+  lineName: string;
+  lineCoords: IMapboxSource;
+  stations: IMapboxSource;
 
   constructor(private _metroService: MetroService, private route: ActivatedRoute) {
     this.getParameters();
     this.latitude = 48.8566;
     this.longitude = 2.34;
-    this.getLineInfo(this.line);
+    this.getLineInfo(this.lineName);
   }
 
   ngOnInit() {}
 
   async getLineInfo(line) {
-    this.source = await this._metroService.getOneLine(line);
+    this.lineCoords = await this._metroService.getOneLine(line);
+    this.stations = await this._metroService.getStationsByLine(line);
   }
 
   async getParameters() {
     await this.route.params
-      .subscribe(params => { this.line = params['id']; });
+      .subscribe(params => { this.lineName = params['id']; });
   }
 }

@@ -10,11 +10,17 @@
         <mgl-layer
           id="metro-lines"
           type="line"
-          [source]=source
+          [source]="lineCoords"
           [paint]="{
               'line-color': color,
               'line-width': 2
             }"
+        >
+        </mgl-layer>
+        <mgl-layer
+          id="metro-stations"
+          type="circle"
+          [source]=stations
         >
         </mgl-layer>
       </mgl-map>
