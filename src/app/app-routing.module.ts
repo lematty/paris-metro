@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { LinesListComponent } from './lines-list/lines-list.component';
+import { DropDownContainerComponent } from './drop-down-container/drop-down-container.component';
 import { DetailComponent } from './detail/detail.component';
 import { ErrorComponent } from './error/error.component';
 import { MapComponent } from './map/map.component';
@@ -20,6 +20,6 @@ const routes: Routes = [
 export class AppRoutingModule { }
 
 export const routingComponents = [
-  LinesListComponent,
+  DropDownContainerComponent,
   DetailComponent
 ];

@@ -1,13 +1,13 @@
+import { MetroService } from '../services/metro.service';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { MetroService } from '../services/metro.service';
 
 @Component({
-  selector: 'app-lines-list',
-  templateUrl: './lines-list.component.html',
-  styleUrls: ['./lines-list.component.css']
+  selector: 'app-drop-down-container',
+  templateUrl: './drop-down-container.component.html',
+  styleUrls: ['./drop-down-container.component.css']
 })
-export class LinesListComponent implements OnInit {
+export class DropDownContainerComponent implements OnInit {
 
   public metroLines = [];
   public rerLines = [];

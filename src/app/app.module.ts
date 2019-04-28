@@ -4,12 +4,12 @@ import { HttpClientModule } from '@angular/common/http';
 import { AgmCoreModule } from '@agm/core';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppComponent } from './app.component';
-import { LinesListComponent } from './lines-list/lines-list.component';
+import { DropDownContainerComponent } from './drop-down-container/drop-down-container.component';
 import { MapComponent } from './map/map.component';
 
 import { MetroService } from './services/metro.service';
 import { environment } from '../environments/environment';
-import {TrainTramService} from './services/train-tram.service';
+import { TrainTramService } from './services/train-tram.service';
 import { TramMapComponent } from './tram-map/tram-map.component';
 import { DetailComponent } from './detail/detail.component';
 import { AppRoutingModule, routingComponents } from './app-routing.module';
