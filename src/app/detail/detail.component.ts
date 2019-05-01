@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { MetroService } from '../services/metro.service';
-import { IMapboxSource } from '../models/mapbox-source';
+import { MapboxFormat } from '../models/mapbox-format';
 
 @Component({
   selector: 'app-detail',
@@ -18,8 +18,8 @@ export class DetailComponent implements OnInit {
     'property': 'color'
   };
   lineName: string;
-  lineCoords: IMapboxSource;
-  stations: IMapboxSource;
+  lineCoords: MapboxFormat;
+  stations: MapboxFormat;
 
   constructor(private _metroService: MetroService, private route: ActivatedRoute) {
     this.getParameters();

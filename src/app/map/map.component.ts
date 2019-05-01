@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MetroService } from '../services/metro.service';
 import { Map } from 'mapbox-gl';
-import { IMapboxSource } from '../models/mapbox-source';
+import { MapboxFormat } from '../models/mapbox-format';
 
 @Component({
   selector: 'app-map',
@@ -12,8 +12,8 @@ export class MapComponent implements OnInit {
   map: Map;
   coordinates = [2.34, 48.8566];
   zoom = 10.7;
-  lines: IMapboxSource;
-  stations: IMapboxSource;
+  lines: MapboxFormat;
+  stations: MapboxFormat;
   color = {
     'type': 'identity',
     'property': 'color'

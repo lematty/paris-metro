@@ -1,0 +1,3617 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.171389812756379,
+                    48.80071846386355
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "VIROFLAY RIVE GAUCHE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.285930718208942,
+                    48.96358968487314
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "SAINT-GRATIEN"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.433299717644525,
+                    48.847308359451276
+                ]
+            },
+            "properties": {
+                "line": "RER A",
+                "station": "VINCENNES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.386783797033431,
+                    48.676092433958715
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "VIRY-CHATILLON"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.484245146583624,
+                    48.70661094689584
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "YERRES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.416187488926984,
+                    48.99377714689271
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "VILLIERS-LE-BEL-GONESSE-ARNOUVILLE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.459520081112193,
+                    49.1873335365493
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "CHANTILLY-GOUVIEUX"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.37412297552969,
+                    48.89667381116845
+                ]
+            },
+            "properties": {
+                "line": "RER E",
+                "station": "ROSA PARKS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.270458243787242,
+                    48.83908975542995
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "PONT DU GARIGLIANO - HOPITAL EUROPEEN GEORGES POMPIDOU"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.475674370833512,
+                    48.93230541606912
+                ]
+            },
+            "properties": {
+                "line": "RER B",
+                "station": "BLANC-MESNIL"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.093521902945918,
+                    48.95540224454144
+                ]
+            },
+            "properties": {
+                "line": "RER A",
+                "station": "ACHERES-GRAND-CORMIER"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.57058948552452,
+                    49.00468746180567
+                ]
+            },
+            "properties": {
+                "line": "RER B",
+                "station": "AEROPORT CHARLES DE GAULLE 2-TGV"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.403633104908493,
+                    48.71262898747625
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "ATHIS-MONS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.329927170608276,
+                    48.87215749487708
+                ]
+            },
+            "properties": {
+                "line": "RER A",
+                "station": "AUBER"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.008771813873437,
+                    48.533732833977226
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "DOURDAN"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.272084772747633,
+                    48.980646100425986
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "ERMONT-EAUBONNE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.192063068770897,
+                    48.577508489431835
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "BREUILLET-BRUYERES-LE-CHATEL"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.506078154570987,
+                    48.69973243301001
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "BRUNOY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.16437824278855,
+                    48.69625274691505
+                ]
+            },
+            "properties": {
+                "line": "RER B",
+                "station": "BURES-SUR-YVETTE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.290391553460649,
+                    48.857293413870465
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "CHAMP DE MARS-TOUR EIFFEL"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294490592832005,
+                    48.874238476656075
+                ]
+            },
+            "properties": {
+                "line": "RER A",
+                "station": "CHARLES DE GAULLE ETOILE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.347012687216214,
+                    48.86182227459668
+                ]
+            },
+            "properties": {
+                "line": "RER B",
+                "station": "CHATELET-LES HALLES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.155903471896523,
+                    48.88521121820845
+                ]
+            },
+            "properties": {
+                "line": "RER A",
+                "station": "CHATOU-CROISSY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.312711013515798,
+                    48.747941901886946
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "CHEMIN D'ANTONY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.338978472013182,
+                    48.82108965061529
+                ]
+            },
+            "properties": {
+                "line": "RER B",
+                "station": "CITE UNIVERSITAIRE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.472933649102297,
+                    48.61342791358873
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "CORBEIL-ESSONNES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.373916471169029,
+                    48.8437725768586
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "GARE DE LYON"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.313911078538979,
+                    48.86290189176217
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "INVALIDES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.276760967379574,
+                    48.84619214048855
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "JAVEL"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.386388291064694,
+                    48.92435387966092
+                ]
+            },
+            "properties": {
+                "line": "RER B",
+                "station": "LA COURNEUVE-AUBERVILLIERS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.144558756800802,
+                    48.945795934518046
+                ]
+            },
+            "properties": {
+                "line": "RER A",
+                "station": "MAISONS-LAFFITTE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.393410724045883,
+                    48.39364154954012
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "MAISSE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.547775189299494,
+                    48.84084343185482
+                ]
+            },
+            "properties": {
+                "line": "RER A",
+                "station": "NOISY-LE-GRAND-MONT D'EST"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.240883067974086,
+                    48.807492625771474
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "MEUDON-VAL-FLEURY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.362665600183825,
+                    48.91811380397261
+                ]
+            },
+            "properties": {
+                "line": "RER B",
+                "station": "LA PLAINE-STADE DE FRANCE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.513423299545896,
+                    48.79538383562037
+                ]
+            },
+            "properties": {
+                "line": "RER A",
+                "station": "LA VARENNE-CHENNEVIERES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.254739701073405,
+                    48.52040359106149
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "LARDY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.478033366491636,
+                    49.03318276813804
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "LES NOUES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.633210913417633,
+                    48.83921929995164
+                ]
+            },
+            "properties": {
+                "line": "RER A",
+                "station": "LOGNES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.426482408484048,
+                    48.80204938032392
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "MAISONS-ALFORT-ALFORTVILLE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.310205451875209,
+                    48.77072199351427
+                ]
+            },
+            "properties": {
+                "line": "RER B",
+                "station": "PARC-DE-SCEAUX"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.513825291026663,
+                    48.853485712976834
+                ]
+            },
+            "properties": {
+                "line": "RER A",
+                "station": "NEUILLY-PLAISANCE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.372103138402569,
+                    48.96375542962029
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "PIERREFITTE-STAINS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.154663485640923,
+                    49.01913673984224
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "PIERRELAYE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.215232347269524,
+                    48.9015496742534
+                ]
+            },
+            "properties": {
+                "line": "RER A",
+                "station": "NANTERRE-UNIVERSITE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.152378660238759,
+                    48.796528182075015
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "PORCHEFONTAINE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.105110703444507,
+                    49.045311648350264
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "SAINT-OUEN-L'AUMONE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.350389537900993,
+                    48.917567175685384
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "STADE DE FRANCE-SAINT-DENIS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.481421258708739,
+                    48.882304004855996
+                ]
+            },
+            "properties": {
+                "line": "RER E",
+                "station": "ROSNY-BOIS-PERRIER"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.172579449082059,
+                    48.887573618648176
+                ]
+            },
+            "properties": {
+                "line": "RER A",
+                "station": "RUEIL-MALMAISON"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.347012687216214,
+                    48.86182227459668
+                ]
+            },
+            "properties": {
+                "line": "RER A",
+                "station": "CHATELET-LES HALLES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.583331160781805,
+                    48.87414408302407
+                ]
+            },
+            "properties": {
+                "line": "RER E",
+                "station": "CHELLES-GOURNAY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.010999760003633,
+                    49.047876203368986
+                ]
+            },
+            "properties": {
+                "line": "RER A",
+                "station": "CERGY LE HAUT"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.552881649788553,
+                    48.87715783880347
+                ]
+            },
+            "properties": {
+                "line": "RER E",
+                "station": "LE CHENAY-GAGNY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.307841187338625,
+                    48.700680803702134
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "CHILLY-MAZARIN"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.266937972614161,
+                    48.591460820223375
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "LA NORVILLE-SAINT-GERMAIN-LES-ARPAJON"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.511855552089056,
+                    48.82484856949333
+                ]
+            },
+            "properties": {
+                "line": "RER E",
+                "station": "LES BOULLEREAUX-CHAMPIGNY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.486349748779074,
+                    48.80537766216148
+                ]
+            },
+            "properties": {
+                "line": "RER A",
+                "station": "LE PARC-DE-SAINT-MAUR"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.134600875228717,
+                    48.89008623555385
+                ]
+            },
+            "properties": {
+                "line": "RER A",
+                "station": "LE VESINET-CENTRE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.287667495450806,
+                    48.73968104342992
+                ]
+            },
+            "properties": {
+                "line": "RER B",
+                "station": "LES BACONNETS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.192734884806757,
+                    48.70540392478545
+                ]
+            },
+            "properties": {
+                "line": "RER B",
+                "station": "LE GUICHET"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.432070117953792,
+                    48.78891489669564
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "LE VERT-DE-MAISONS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.451409095593275,
+                    48.62333224107223
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "LE BRAS-DE-FER"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.504559838317235,
+                    48.752185723486896
+                ]
+            },
+            "properties": {
+                "line": "RER A",
+                "station": "BOISSY-SAINT-LEGER"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.30234042019572,
+                    48.95339646167632
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "EPINAY-SUR-SEINE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.365433384726205,
+                    48.842528026791484
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "AUSTERLITZ"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.492713004236903,
+                    48.566117820741994
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "LE COUDRAY-MONTCEAUX"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.234276393983286,
+                    48.993713481284985
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "FRANCONVILLE-LE-PLESSIS-BOUCHARD"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.462168964768089,
+                    49.023161999024914
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "GOUSSAINVILLE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.525434250765843,
+                    48.88373428097723
+                ]
+            },
+            "properties": {
+                "line": "RER E",
+                "station": "GAGNY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.547548045814366,
+                    48.66790196104987
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "COMBS-LA-VILLE-QUINCY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.462456492779697,
+                    48.60555582637839
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "ESSONNES-ROBINSON"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.304227346191482,
+                    48.761693690399476
+                ]
+            },
+            "properties": {
+                "line": "RER B",
+                "station": "LA CROIX-DE-BERNY-FRESNES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.506143689252232,
+                    49.12678094198271
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "LA BORNE BLANCHE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.357115334947971,
+                    48.88076895833307
+                ]
+            },
+            "properties": {
+                "line": "RER B",
+                "station": "GARE DU NORD"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.357115334947971,
+                    48.88076895833307
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "GARE DU NORD"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.159530587565154,
+                    48.436923937640294
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "ETAMPES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.382757203082266,
+                    48.68969793365298
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "JUVISY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.312736251060262,
+                    48.65281140144265
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "SAINTE-GENEVIEVE-DES-BOIS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.525531713983826,
+                    49.09958694009281
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "SURVILLIERS-FOSSES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.415206839972445,
+                    48.6589754238234
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "RIS-ORANGIS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.146831644765371,
+                    48.770425202105436
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "PETIT-JOUY-LES-LOGES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.078306591409993,
+                    49.014133684983044
+                ]
+            },
+            "properties": {
+                "line": "RER A",
+                "station": "NEUVILLE UNIVERSITE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.223212967029377,
+                    48.89574531209786
+                ]
+            },
+            "properties": {
+                "line": "RER A",
+                "station": "NANTERRE-PREFECTURE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.237314364639455,
+                    48.708140583645324
+                ]
+            },
+            "properties": {
+                "line": "RER B",
+                "station": "PALAISEAU-VILLEBON"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.690252780824528,
+                    48.77077891885494
+                ]
+            },
+            "properties": {
+                "line": "RER E",
+                "station": "OZOIR-LA-FERRIERE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.284431219916768,
+                    48.87790843816007
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "PORTE MAILLOT"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.407796287520861,
+                    48.63635136800817
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "ORANGIS-BOIS DE L'EPINE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.044621987173176,
+                    48.787390238280715
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "SAINT-QUENTIN-EN-YVELINES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.373111940704935,
+                    48.74834968236464
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "PONT DE RUNGIS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.507482645722801,
+                    48.771707906064925
+                ]
+            },
+            "properties": {
+                "line": "RER A",
+                "station": "SUCY-BONNEUIL"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.39059365127582,
+                    48.97674784828698
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "GARGES-SARCELLES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.411386724936104,
+                    48.76378680955171
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "CHOISY-LE-ROI"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.30794323408686,
+                    48.932896165549444
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "GENNEVILLIERS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.435330531548363,
+                    48.64848911169394
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "GRAND-BOURG"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.650387667079847,
+                    48.79565482140809
+                ]
+            },
+            "properties": {
+                "line": "RER E",
+                "station": "ROISSY-EN-BRIE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.345604378196291,
+                    48.93445554506131
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "SAINT-DENIS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.297647679167028,
+                    48.781356720431795
+                ]
+            },
+            "properties": {
+                "line": "RER B",
+                "station": "SCEAUX"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.128263873923673,
+                    49.033987636271455
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "SAINT-OUEN-L'AUMONE-LIESSE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.122117447472966,
+                    48.89797344633643
+                ]
+            },
+            "properties": {
+                "line": "RER A",
+                "station": "LE VESINET-LE PECQ"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.642406305029859,
+                    48.97585875582702
+                ]
+            },
+            "properties": {
+                "line": "RER B",
+                "station": "MITRY-CLAYE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.569583548243857,
+                    48.62837555082435
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "LIEUSAINT-MOISSY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.727229371429766,
+                    48.746452320704556
+                ]
+            },
+            "properties": {
+                "line": "RER E",
+                "station": "GRETZ-ARMAINVILLIERS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.292492980557762,
+                    48.78761467998698
+                ]
+            },
+            "properties": {
+                "line": "RER B",
+                "station": "FONTENAY-AUX-ROSES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.296393157536253,
+                    48.743373402021376
+                ]
+            },
+            "properties": {
+                "line": "RER B",
+                "station": "FONTAINE-MICHALON"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.194581699172116,
+                    48.493644578487505
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "ETRECHY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.396176812439178,
+                    48.65396975928158
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "GRIGNY-CENTRE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.490178985421196,
+                    49.13828637527201
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "ORRY-LA-VILLE-COYE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.40290860736794,
+                    48.74187870567889
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "ORLY VILLE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.544348951730932,
+                    48.53513976609529
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "PONTHIERRY-PRINGY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.473490366362306,
+                    48.58715390536035
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "MOULIN-GALANT"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.376672817155076,
+                    48.4344906128558
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "BOUTIGNY-SUR-ESSONNE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.37881544334374,
+                    48.34166354191978
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "BOIGNEVILLE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.077731765931404,
+                    48.97066504833311
+                ]
+            },
+            "properties": {
+                "line": "RER A",
+                "station": "ACHERES-VILLE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.561232695225106,
+                    49.00975645213836
+                ]
+            },
+            "properties": {
+                "line": "RER B",
+                "station": "AEROPORT CHARLES DE GAULLE 1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.279487064975001,
+                    48.85364805626964
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "AVENUE DU PRESIDENT KENNEDY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.995901987654023,
+                    48.5356206225617
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "DOURDAN-LA-FORET"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.22243331383282,
+                    48.58248559694799
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "EGLY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.619395778989611,
+                    48.805770376009484
+                ]
+            },
+            "properties": {
+                "line": "RER E",
+                "station": "EMERAINVILLE-PONTAULT-COMBAULT"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.332622929198995,
+                    48.669483726107565
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "EPINAY-SUR-ORGE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.170976265059195,
+                    48.56459702645802
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "BREUILLET-VILLAGE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.079534939997374,
+                    49.03646398072535
+                ]
+            },
+            "properties": {
+                "line": "RER A",
+                "station": "CERGY-PREFECTURE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.347012687216214,
+                    48.86182227459668
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "CHATELET-LES HALLES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.183684109854236,
+                    48.79972882534396
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "CHAVILLE-VELIZY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.463708038038903,
+                    48.84372026160052
+                ]
+            },
+            "properties": {
+                "line": "RER A",
+                "station": "FONTENAY-SOUS-BOIS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.373259976710645,
+                    48.84413934985302
+                ]
+            },
+            "properties": {
+                "line": "RER A",
+                "station": "GARE DE LYON"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.230961125063006,
+                    48.74018152105127
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "IGNY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.258759767033708,
+                    48.81967448818826
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "ISSY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.263689648738453,
+                    48.83011963925857
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "ISSY-VAL DE SEINE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.391686971662538,
+                    48.813989052009454
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "IVRY-SUR-SEINE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.163947085881832,
+                    48.764776012952915
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "JOUY-EN-JOSAS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.290924469845003,
+                    48.56559386282989
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "MAROLLES-EN-HUREPOIX"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.273483464396533,
+                    48.734716586800225
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "MASSY-VERRIERES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.432098533660357,
+                    48.57059685871919
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "MENNECY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.351858421416974,
+                    48.484957377176464
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "LA FERTE-ALAIS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.151642038623571,
+                    48.695264122108014
+                ]
+            },
+            "properties": {
+                "line": "RER B",
+                "station": "LA HACQUINIERE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.425791426914742,
+                    48.9307395712233
+                ]
+            },
+            "properties": {
+                "line": "RER B",
+                "station": "LE BOURGET"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.625522155066302,
+                    48.538775256627815
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "LE MEE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.479469169610713,
+                    48.57380779265948
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "LE PLESSIS-CHENET"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.313835382469576,
+                    48.92087280345732
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "LES GRESILLONS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.417520977896491,
+                    48.745072166893884
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "LES SAULES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.579837255273694,
+                    48.82315185583908
+                ]
+            },
+            "properties": {
+                "line": "RER E",
+                "station": "LES YVRIS-NOISY-LE-GRAND"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.339927999715897,
+                    48.845743073225805
+                ]
+            },
+            "properties": {
+                "line": "RER B",
+                "station": "LUXEMBOURG"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.298033303213241,
+                    48.88540428091779
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "PEREIRE-LEVALLOIS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.395823588826127,
+                    48.84823711041019
+                ]
+            },
+            "properties": {
+                "line": "RER A",
+                "station": "NATION"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.615952488501647,
+                    48.84349164874607
+                ]
+            },
+            "properties": {
+                "line": "RER A",
+                "station": "NOISIEL"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.333249458502209,
+                    48.67638132528039
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "PETIT-VAUX"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.325620298752375,
+                    48.860708229865644
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "MUSEE D'ORSAY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.181054437696623,
+                    48.697505669894596
+                ]
+            },
+            "properties": {
+                "line": "RER B",
+                "station": "ORSAY-VILLE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.300989969386769,
+                    48.86266245169434
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "PONT DE L'ALMA"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.095195067225969,
+                    49.04664576264113
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "PONTOISE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.306833164002912,
+                    48.635875862238876
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "SAINT-MICHEL-SUR-ORGE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.322400403154985,
+                    48.90565495492737
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "SAINT-OUEN"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.071242849022199,
+                    48.70275104299783
+                ]
+            },
+            "properties": {
+                "line": "RER B",
+                "station": "SAINT-REMY-LES-CHEVREUSE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.129043868731507,
+                    48.800215578145895
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "VERSAILLES CHATEAU"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.157086497849344,
+                    48.937736062525
+                ]
+            },
+            "properties": {
+                "line": "RER A",
+                "station": "SARTROUVILLE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.58394771106125,
+                    48.595563837991776
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "SAVIGNY-LE-TEMPLE-NANDY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.534714977472367,
+                    48.936280185662376
+                ]
+            },
+            "properties": {
+                "line": "RER B",
+                "station": "SEVRAN-LIVRY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.315599220546768,
+                    48.89416838621195
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "PORTE-DE-CLICHY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.472720403802171,
+                    48.80620002476371
+                ]
+            },
+            "properties": {
+                "line": "RER A",
+                "station": "SAINT-MAUR-CRETEIL"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.302059694247387,
+                    48.60674495256192
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "BRETIGNY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.479793329961401,
+                    48.89401251501928
+                ]
+            },
+            "properties": {
+                "line": "RER E",
+                "station": "BONDY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.495513141228173,
+                    48.932196005056994
+                ]
+            },
+            "properties": {
+                "line": "RER B",
+                "station": "AULNAY-SOUS-BOIS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.272120621636198,
+                    48.864461748379675
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "AVENUE HENRI MARTIN"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.322201633670121,
+                    48.793336296236205
+                ]
+            },
+            "properties": {
+                "line": "RER B",
+                "station": "BAGNEUX"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.370518497736708,
+                    48.53150198648683
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "BALLANCOURT"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.376695892136014,
+                    48.82987504370409
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "BIBLIOTHEQUE FRANCOIS MITTERRAND"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.454766382765777,
+                    48.93270621869947
+                ]
+            },
+            "properties": {
+                "line": "RER B",
+                "station": "DRANCY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.525922546568198,
+                    48.84490113871274
+                ]
+            },
+            "properties": {
+                "line": "RER A",
+                "station": "BRY-SUR-MARNE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.708981742262277,
+                    48.83653643294522
+                ]
+            },
+            "properties": {
+                "line": "RER A",
+                "station": "BUSSY-SAINT-GEORGES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.257474158629373,
+                    48.985004700368414
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "CERNAY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.594551816007613,
+                    48.564949495670916
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "CESSON"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.215517810582092,
+                    48.51424587619093
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "CHAMARANDE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.510307237115641,
+                    48.80698507164624
+                ]
+            },
+            "properties": {
+                "line": "RER A",
+                "station": "CHAMPIGNY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.340891132421861,
+                    48.81522993651496
+                ]
+            },
+            "properties": {
+                "line": "RER B",
+                "station": "GENTILLY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.136566717058361,
+                    48.69819697630193
+                ]
+            },
+            "properties": {
+                "line": "RER B",
+                "station": "GIF-SUR-YVETTE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.317626404971018,
+                    48.685713626380426
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "GRAVIGNY-BALIZY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.782226723449037,
+                    48.86995013493981
+                ]
+            },
+            "properties": {
+                "line": "RER A",
+                "station": "CHESSY - MARNE-LA-VALLEE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.326717840220577,
+                    48.87502934185029
+                ]
+            },
+            "properties": {
+                "line": "RER E",
+                "station": "HAUSSMANN-SAINT-LAZARE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.452289892538954,
+                    48.63447902331143
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "EVRY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.428738987347718,
+                    48.62602242806499
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "EVRY-COURCOURONNES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.185353376288786,
+                    48.920379374823604
+                ]
+            },
+            "properties": {
+                "line": "RER A",
+                "station": "HOUILLES-CARRIERES-SUR-SEINE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.463856795362316,
+                    48.82103881506317
+                ]
+            },
+            "properties": {
+                "line": "RER A",
+                "station": "JOINVILLE-LE-PONT"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.383520868740653,
+                    48.689215480905524
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "JUVISY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.401133894429584,
+                    48.29359176871632
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "MALESHERBES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.334354306939409,
+                    48.808296586817626
+                ]
+            },
+            "properties": {
+                "line": "RER B",
+                "station": "LAPLACE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.512566826933837,
+                    48.88907659292931
+                ]
+            },
+            "properties": {
+                "line": "RER E",
+                "station": "LE RAINCY-VILLEMOMBLE-MONTFERMEIL"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.409541655099439,
+                    48.7825054354935
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "LES ARDOINES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294557749213463,
+                    48.70223938691144
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "LONGJUMEAU"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.212262378017492,
+                    48.705968984822285
+                ]
+            },
+            "properties": {
+                "line": "RER B",
+                "station": "LOZERE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.245672514581905,
+                    48.716946287585145
+                ]
+            },
+            "properties": {
+                "line": "RER B",
+                "station": "PALAISEAU"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.49418805536357,
+                    48.83934193738164
+                ]
+            },
+            "properties": {
+                "line": "RER E",
+                "station": "NOGENT-LE-PERREUX"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.580085911974356,
+                    48.8428848408236
+                ]
+            },
+            "properties": {
+                "line": "RER A",
+                "station": "NOISY-CHAMPS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.4622822460488,
+                    48.70823782858778
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "MONTGERON-CROSNE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.458363410652067,
+                    48.896652451137925
+                ]
+            },
+            "properties": {
+                "line": "RER E",
+                "station": "NOISY-LE-SEC"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.041072289675926,
+                    48.93326540612854
+                ]
+            },
+            "properties": {
+                "line": "RER A",
+                "station": "POISSY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.337096430891528,
+                    48.8400337865188
+                ]
+            },
+            "properties": {
+                "line": "RER B",
+                "station": "PORT ROYAL"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.352481401048998,
+                    48.676446656997726
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "SAVIGNY-SUR-ORGE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.524716389411973,
+                    48.9476075558527
+                ]
+            },
+            "properties": {
+                "line": "RER B",
+                "station": "SEVRAN-BEAUDOTTES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.281430595425078,
+                    48.78023729800771
+                ]
+            },
+            "properties": {
+                "line": "RER B",
+                "station": "ROBINSON"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.485761141966139,
+                    48.86991242009122
+                ]
+            },
+            "properties": {
+                "line": "RER E",
+                "station": "ROSNY-SOUS-BOIS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.351633199531735,
+                    48.74019544821015
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "RUNGIS-LA FRATERNELLE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.125707270414656,
+                    48.55109197558505
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "SAINT-CHERON"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.071847005929401,
+                    48.79870763528835
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "SAINT-CYR"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.542651822724329,
+                    48.564485869218345
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "SAINT-FARGEAU"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.346034984443716,
+                    48.85333579648197
+                ]
+            },
+            "properties": {
+                "line": "RER B",
+                "station": "SAINT-MICHEL NOTRE DAME"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.346034984443716,
+                    48.85333579648197
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "SAINT-MICHEL NOTRE DAME"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.542679795377867,
+                    48.82326663412928
+                ]
+            },
+            "properties": {
+                "line": "RER E",
+                "station": "VILLIERS-SUR-MARNE-PLESSIS-TREVISE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.402712818542927,
+                    48.800209398351384
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "VITRY-SUR-SEINE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.758824548674894,
+                    48.73948720730179
+                ]
+            },
+            "properties": {
+                "line": "RER E",
+                "station": "TOURNAN"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.069381524887472,
+                    48.535806509243706
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "SERMAISE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.654990284856376,
+                    48.52724332056844
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "MELUN"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.237018056395014,
+                    48.8921870764495
+                ]
+            },
+            "properties": {
+                "line": "RER A",
+                "station": "LA DEFENSE-GRANDE ARCHE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.257355188147784,
+                    48.725197641013786
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "MASSY-PALAISEAU"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.273483464396533,
+                    48.734716586800225
+                ]
+            },
+            "properties": {
+                "line": "RER B",
+                "station": "MASSY-VERRIERES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.258966434308785,
+                    48.72430941924522
+                ]
+            },
+            "properties": {
+                "line": "RER B",
+                "station": "MASSY-PALAISEAU"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.572073661381349,
+                    48.52974691857158
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "BOISSISE-LE-ROI"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.145246592903116,
+                    48.42736258418355
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "SAINT-MARTIN-D'ETAMPES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.034294460484787,
+                    49.049647005245355
+                ]
+            },
+            "properties": {
+                "line": "RER A",
+                "station": "CERGY-SAINT-CHRISTOPHE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.097975855687467,
+                    48.70121772119422
+                ]
+            },
+            "properties": {
+                "line": "RER B",
+                "station": "COURCELLE-SUR-YVETTE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.332852309960891,
+                    48.8342929804732
+                ]
+            },
+            "properties": {
+                "line": "RER B",
+                "station": "DENFERT-ROCHEREAU"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.275574526847743,
+                    48.870974138193766
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "AVENUE FOCH"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.387209795868763,
+                    48.37138329049663
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "BUNO-GIRONVILLE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.514360284175948,
+                    48.97342490631064
+                ]
+            },
+            "properties": {
+                "line": "RER B",
+                "station": "PARC DES EXPOSITIONS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.197619813968745,
+                    49.00742329713069
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "MONTIGNY-BEAUCHAMP"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.471681241208739,
+                    48.83428889889013
+                ]
+            },
+            "properties": {
+                "line": "RER A",
+                "station": "NOGENT-SUR-MARNE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.195363986912902,
+                    48.89512589133458
+                ]
+            },
+            "properties": {
+                "line": "RER A",
+                "station": "NANTERRE-VILLE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.501758065837831,
+                    49.049325601784794
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "LOUVRES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.400361705897446,
+                    48.898112305394775
+                ]
+            },
+            "properties": {
+                "line": "RER E",
+                "station": "PANTIN"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.358833236973676,
+                    48.8809135283548
+                ]
+            },
+            "properties": {
+                "line": "RER E",
+                "station": "MAGENTA"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.312307716888594,
+                    48.78031379639698
+                ]
+            },
+            "properties": {
+                "line": "RER B",
+                "station": "BOURG-LA-REINE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.328136923064751,
+                    48.79889250008067
+                ]
+            },
+            "properties": {
+                "line": "RER B",
+                "station": "ARCUEIL-CACHAN"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.215860860098732,
+                    48.7510232733389
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "BIEVRES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.241070082271811,
+                    48.586007889909155
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "ARPAJON"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.290082513828219,
+                    48.53289010414424
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "BOURAY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.30098685572291,
+                    48.75494652643051
+                ]
+            },
+            "properties": {
+                "line": "RER B",
+                "station": "ANTONY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.419565024377941,
+                    48.72553530576058
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "ABLON"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.533130656571037,
+                    48.681016616342724
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "BOUSSY-SAINT-ANTOINE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.27516715468514,
+                    48.8565315515406
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "BOULAINVILLIERS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.094836628297753,
+                    48.89807641113002
+                ]
+            },
+            "properties": {
+                "line": "RER A",
+                "station": "SAINT-GERMAIN-EN-LAYE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.073769886475506,
+                    48.99101254867934
+                ]
+            },
+            "properties": {
+                "line": "RER A",
+                "station": "CONFLANS-FIN-D'OISE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.488187575181283,
+                    48.85379557653647
+                ]
+            },
+            "properties": {
+                "line": "RER A",
+                "station": "VAL-DE-FONTENAY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.414358879800508,
+                    48.7083664325953
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "VIGNEUX-SUR-SEINE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.426399820474823,
+                    48.739830699436546
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "VILLENEUVE-LE-ROI"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.435306339706323,
+                    48.771266038121055
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "CRETEIL POMPADOUR"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.599304265926134,
+                    48.51515145324159
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "VOSVES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.77343391788355,
+                    48.855394809031935
+                ]
+            },
+            "properties": {
+                "line": "RER A",
+                "station": "VAL-D'EUROPE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.192135812662606,
+                    48.75918898322001
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "VAUBOYEN"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.136050488302483,
+                    48.795280246262216
+                ]
+            },
+            "properties": {
+                "line": "RER C",
+                "station": "VERSAILLES-CHANTIERS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.655130086641314,
+                    48.83964551726302
+                ]
+            },
+            "properties": {
+                "line": "RER A",
+                "station": "TORCY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.438344239163614,
+                    48.745230819408114
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "VILLENEUVE-TRIAGE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.489167460948015,
+                    48.85426899363537
+                ]
+            },
+            "properties": {
+                "line": "RER E",
+                "station": "VAL-DE-FONTENAY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.461806388842185,
+                    48.59262774128592
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "VILLABE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.446135830934545,
+                    48.73011683142026
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "VILLENEUVE-SAINT-GEORGES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.603135305118449,
+                    48.9531483875826
+                ]
+            },
+            "properties": {
+                "line": "RER B",
+                "station": "VILLEPARISIS-MITRY-LE-NEUF"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.512644627819613,
+                    48.962709513300425
+                ]
+            },
+            "properties": {
+                "line": "RER B",
+                "station": "VILLEPINTE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.468914115351039,
+                    49.26394414450533
+                ]
+            },
+            "properties": {
+                "line": "RER D",
+                "station": "CREIL"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.566448016970496,
+                    48.94418106507546
+                ]
+            },
+            "properties": {
+                "line": "RER B",
+                "station": "VERT-GALANT"
+            }
+        }
+    ]
+}
