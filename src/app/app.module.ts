@@ -12,10 +12,10 @@ import { environment } from '../environments/environment';
 import { TrainTramService } from './services/train-tram.service';
 import { TramMapComponent } from './tram-map/tram-map.component';
 import { DetailComponent } from './detail/detail.component';
-import { ErrorComponent } from './error/error.component';
 import { NgxMapboxGLModule } from 'ngx-mapbox-gl';
 import { HomeComponent } from './home/home.component';
 import { DropDownContainerComponent } from './drop-down-container/drop-down-container.component';
+import { ErrorComponent } from './error/error.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },

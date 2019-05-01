@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { MetroService } from '../services/metro.service';
-import { IMapboxSource } from '../mapbox-source';
+import { IMapboxSource } from '../models/mapbox-source';
 
 @Component({
   selector: 'app-detail',

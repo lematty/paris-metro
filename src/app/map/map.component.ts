@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MetroService } from '../services/metro.service';
 import { Map } from 'mapbox-gl';
-import { IMapboxSource } from '../mapbox-source';
+import { IMapboxSource } from '../models/mapbox-source';
 
 @Component({
   selector: 'app-map',
