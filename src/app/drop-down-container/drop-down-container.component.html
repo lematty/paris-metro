@@ -1,30 +1,26 @@
-<div class="btn-group mr-3">
+<div class="btn-group">
   <div class="btn-group" ngbDropdown role="group" aria-label="Button group with nested dropdown">
-    <button class="btn btn-outline-primary" ngbDropdownToggle>Metro Lines</button>
+    <button class="btn btn-outline-primary" ngbDropdownToggle>Metro</button>
     <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
-      <button [routerLink]="['/map', line]" *ngFor="let line of metroLines" class="dropdown-item">{{ line }}</button>
+      <button [routerLink]="['/metro', line]" *ngFor="let line of metros" class="dropdown-item">{{ line }}</button>
     </div>
   </div>
   <div class="btn-group" ngbDropdown role="group" aria-label="Button group with nested dropdown">
-    <button class="btn btn-outline-success" ngbDropdownToggle>RER Lines</button>
+    <button class="btn btn-outline-success" ngbDropdownToggle>RER</button>
     <div class="dropdown-menu" ngbDropdownMenu>
-      <button [routerLink]="['/map', line]" *ngFor="let line of rerLines" class="dropdown-item">{{ line }}</button>
+      <button [routerLink]="['/rer', line]" *ngFor="let line of rers" class="dropdown-item">{{ line }}</button>
     </div>
   </div>
   <div class="btn-group" ngbDropdown role="group" aria-label="Button group with nested dropdown">
-    <button class="btn btn-outline-info" ngbDropdownToggle>Daytime Bus Routes</button>
+    <button class="btn btn-outline-info" ngbDropdownToggle>Day Bus</button>
     <div class="dropdown-menu" ngbDropdownMenu>
-      <button class="dropdown-item">One</button>
-      <button class="dropdown-item">Two</button>
-      <button class="dropdown-item">Four!</button>
-    </div>
+        <button [routerLink]="['/bus', line]" *ngFor="let line of buses" class="dropdown-item">{{ line }}</button>
+      </div>
   </div>
   <div class="btn-group" ngbDropdown role="group" aria-label="Button group with nested dropdown">
-    <button class="btn btn-outline-dark" ngbDropdownToggle>Nighttime Bus Routes</button>
+    <button class="btn btn-outline-dark" ngbDropdownToggle>Night Bus</button>
     <div class="dropdown-menu" ngbDropdownMenu>
-      <button class="dropdown-item">One</button>
-      <button class="dropdown-item">Two</button>
-      <button class="dropdown-item">Four!</button>
-    </div>
+        <button [routerLink]="['/noctilien', line]" *ngFor="let line of noctiliens" class="dropdown-item">{{ line }}</button>
+      </div>
   </div>
 </div>

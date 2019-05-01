@@ -9,8 +9,10 @@ import { Router } from '@angular/router';
 })
 export class DropDownContainerComponent implements OnInit {
 
-  public metroLines = [];
-  public rerLines = [];
+  public metros = [];
+  public rers = [];
+  public buses = [];
+  public noctiliens = [];
 
   constructor(private _metroService: MetroService, private router: Router) { }
 
@@ -19,7 +21,7 @@ export class DropDownContainerComponent implements OnInit {
   }
 
   async getMetroLines() {
-    this.metroLines = await this._metroService.getAllLineNames();
+    this.metros = await this._metroService.getAllLineNames();
   }
 
   onSelect(id) {
