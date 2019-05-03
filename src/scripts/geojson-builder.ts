@@ -1,6 +1,7 @@
 const fs = require('fs');
 const originalGeoJson: FeatureCollection = require('../assets/geojson/stations.geojson.json');
-import { FeatureCollection, Feature } from 'geojson';
+import { FeatureCollection, Feature, Point } from 'geojson';
+import { Station } from 'src/app/shared/station.model';
 
 function searchForTransportType(type: string): FeatureCollection {
   const stations = originalGeoJson.features.filter((feature: Feature) => {
@@ -14,13 +15,13 @@ function searchForTransportType(type: string): FeatureCollection {
   };
 }
 
-function formatGeoJson(geojson: FeatureCollection): FeatureCollection {
+function formatStations(geojson: FeatureCollection): FeatureCollection {
   const formattedFeatureCollection: FeatureCollection = {
     type: 'FeatureCollection',
     features: geojson.features.map((feature: Feature) => {
-      const formatFeature: Feature = {
+      const formatFeature: Station = {
         type: feature.type,
-        geometry: feature.geometry,
+        geometry: feature.geometry as Point,
         properties: {
           line: feature.properties.res_com,
           station: feature.properties.nomlong,
@@ -53,7 +54,7 @@ function createOrRewriteFile(data: FeatureCollection) {
 
 function main() {
   const data = searchForTransportType('RER');
-  const newGeoJson = formatGeoJson(data);
+  const newGeoJson = formatStations(data);
   createOrRewriteFile(newGeoJson);
 }
 
