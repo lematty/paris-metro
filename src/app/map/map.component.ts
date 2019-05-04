@@ -31,6 +31,6 @@ export class MapComponent implements OnInit {
   }
 
   async getStations() {
-    this.stations = await this._metroService.getAllStationCoords();
+    this.stations = await this._metroService.getAllStationCoords('metro');
   }
 }

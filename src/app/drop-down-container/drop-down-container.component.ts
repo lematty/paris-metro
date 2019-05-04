@@ -21,7 +21,10 @@ export class DropDownContainerComponent implements OnInit {
   }
 
   async getMetroLines() {
-    this.metros = await this._metroService.getAllLineNames();
+    this.metros = await this._metroService.getAllLineNames('metro');
+  }
+  async getRerLines() {
+    this.rers = await this._metroService.getAllLineNames('rer');
   }
 
   onSelect(id) {

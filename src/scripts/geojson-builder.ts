@@ -1,10 +1,20 @@
 const fs = require('fs');
-const originalGeoJson: FeatureCollection = require('../assets/geojson/stations.geojson.json');
 import { FeatureCollection, Feature, Point } from 'geojson';
 import { Station } from 'src/app/shared/station.model';
 
+enum Output {
+  METRO_STATIONS = '../assets/geojson/metro/paris-metro-stations.geojson.json',
+  METRO_LINES = '../assets/geojson/metro/paris-metro-lines.geojson.json',
+  RER_STATIONS = '../assets/geojson/rer/paris-rer-stations.geojson.json',
+  RER_LINES = '../assets/geojson/rer/paris-rer-lines.geojson.json',
+}
+const SOURCE_FILE: FeatureCollection = require('../assets/geojson/rer-metro-tram.geojson.json');
+const OUTPUT_FILE = Output[process.argv[2]];
+console.log(process.argv[2]);
+console.log(OUTPUT_FILE);
+
 function searchForTransportType(type: string): FeatureCollection {
-  const stations = originalGeoJson.features.filter((feature: Feature) => {
+  const stations = SOURCE_FILE.features.filter((feature: Feature) => {
     if (feature.properties.reseau === type) {
       return feature;
     }
@@ -43,7 +53,7 @@ function titleCaseName(name: string): string {
 }
 
 function createOrRewriteFile(data: FeatureCollection) {
-  fs.writeFile('../assets/geojson/paris-rer-stations.geojson.json', JSON.stringify(data), err => {
+  fs.writeFile(OUTPUT_FILE, JSON.stringify(data), err => {
     if (err) {
       console.log(err);
       return;
@@ -58,4 +68,4 @@ function main() {
   createOrRewriteFile(newGeoJson);
 }
 
-main();
+// main();

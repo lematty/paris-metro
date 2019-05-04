@@ -8,8 +8,10 @@ import { FeatureCollection } from 'geojson';
 })
 export class MetroService {
 
-  private _metroLinesUrl = '../../assets/geojson/paris-metro-lines.geojson';
-  private _metroStopsUrl = '../../assets/geojson/paris-metro-stops.geojson';
+  private _metroLinesUrl = '../../assets/geojson/metro/paris-metro-lines.geojson';
+  private _metroStopsUrl = '../../assets/geojson/metro/paris-metro-stops.geojson';
+  private _rerLinesUrl = '../../assets/geojson/rer/paris-rer-lines.geojson.json';
+  private _rerStopsUrl = '../../assets/geojson/rer/paris-rer-stations.geojson.json';
 
   constructor(private http: HttpClient) { }
 
@@ -18,9 +20,10 @@ export class MetroService {
     return { type: 'geojson', data: lines };
   }
 
-  async getAllLineNames(): Promise<string[]> {
+  async getAllLineNames(network: string): Promise<string[]> {
+    const url = network === 'metro' ? this._metroLinesUrl : this._rerLinesUrl;
     const lines = [];
-    const data = await this.http.get<FeatureCollection>(this._metroLinesUrl).toPromise();
+    const data = await this.http.get<FeatureCollection>(url).toPromise();
     for (let i = 0; i < data['features'].length; i++) {
       lines.push(data['features'][i]['properties']['name']);
     }
@@ -42,8 +45,9 @@ export class MetroService {
     return { type: 'geojson', data: line };
   }
 
-  async getAllStationCoords(): Promise<MapboxFormat> {
-    const stations = await this.http.get<FeatureCollection>(this._metroStopsUrl).toPromise();
+  async getAllStationCoords(network: string): Promise<MapboxFormat> {
+    const url = network === 'metro' ? this._metroStopsUrl : this._rerStopsUrl;
+    const stations = await this.http.get<FeatureCollection>(url).toPromise();
     return { type: 'geojson', data: stations };
   }
 

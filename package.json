@@ -5,6 +5,10 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "metro:stations": "ts-node ./src/scripts/geojson-builder.ts METRO_STATIONS",
+    "metro:lines": "ts-node ./src/scripts/geojson-builder.ts METRO_LINES",
+    "rer:stations": "ts-node ./src/scripts/geojson-builder.ts RER_STATIONS",
+    "rer:lines": "ts-node ./src/scripts/geojson-builder.ts RER_LINES",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
