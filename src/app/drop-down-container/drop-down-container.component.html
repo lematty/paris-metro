@@ -2,7 +2,7 @@
   <div class="btn-group" ngbDropdown role="group" aria-label="Button group with nested dropdown">
     <button class="btn btn-outline-primary" ngbDropdownToggle>Metro</button>
     <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
-      <button [routerLink]="['/metro', line]" *ngFor="let line of metros" class="dropdown-item">{{ line }}</button>
+      <button [routerLink]="['/metro', line]" (click)="sendNetwork('metro')" *ngFor="let line of metros" class="dropdown-item">{{ line }}</button>
     </div>
   </div>
   <div class="btn-group" ngbDropdown role="group" aria-label="Button group with nested dropdown">
@@ -10,6 +10,12 @@
     <div class="dropdown-menu" ngbDropdownMenu>
       <button [routerLink]="['/rer', line]" *ngFor="let line of rers" class="dropdown-item">{{ line }}</button>
     </div>
+  </div>
+  <div class="btn-group" ngbDropdown role="group" aria-label="Button group with nested dropdown">
+    <button class="btn btn-outline-info" ngbDropdownToggle>Tram</button>
+    <div class="dropdown-menu" ngbDropdownMenu>
+        <button [routerLink]="['/tram', line]" *ngFor="let line of trams" class="dropdown-item">{{ line }}</button>
+      </div>
   </div>
   <div class="btn-group" ngbDropdown role="group" aria-label="Button group with nested dropdown">
     <button class="btn btn-outline-info" ngbDropdownToggle>Day Bus</button>

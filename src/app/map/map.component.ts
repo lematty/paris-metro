@@ -22,15 +22,19 @@ export class MapComponent implements OnInit {
   constructor(private _metroService: MetroService) { }
 
   ngOnInit() {
-    this.getLines();
-    this.getStations();
+    this.getMetroLines();
+    this.getMetroStations();
   }
 
-  async getLines() {
-    this.lines = await this._metroService.getAllLineCoords();
+  async getLines(network: string, type: string) {
+    this.lines = await this._metroService.getAllLineCoords(network);
   }
 
-  async getStations() {
+  async getMetroLines() {
+    this.lines = await this._metroService.getAllLineCoords('metro');
+  }
+
+  async getMetroStations() {
     this.stations = await this._metroService.getAllStationCoords('metro');
   }
 }

@@ -20,6 +20,7 @@ export class DetailComponent implements OnInit {
   lineName: string;
   lineCoords: MapboxFormat;
   stations: MapboxFormat;
+  network: string;
 
   constructor(private _metroService: MetroService, private route: ActivatedRoute) {
     this.getParameters();
@@ -30,13 +31,13 @@ export class DetailComponent implements OnInit {
 
   ngOnInit() {}
 
-  async getLineInfo(line) {
-    this.lineCoords = await this._metroService.getOneLine(line);
-    this.stations = await this._metroService.getStationsByLine(line);
+  async getLineInfo(line: string) {
+    this.lineCoords = await this._metroService.getOneLine(this.network, line);
+    this.stations = await this._metroService.getStationsByLine(this.network, line);
   }
 
   async getParameters() {
     await this.route.params
-      .subscribe(params => { this.lineName = params['id']; });
+      .subscribe(params => { this.lineName = params['line']; });
   }
 }

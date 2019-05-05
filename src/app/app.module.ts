@@ -18,9 +18,12 @@ import { DropDownContainerComponent } from './drop-down-container/drop-down-cont
 import { ErrorComponent } from './error/error.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
-  { path: 'metro/:id', component: DetailComponent },
-  { path: 'rer/:id', component: DetailComponent },
+  { path: '', component: MapComponent },
+  { path: 'metro/:line', component: DetailComponent },
+  { path: 'rer/:line', component: DetailComponent },
+  { path: 'tram/:line', component: DetailComponent },
+  { path: 'bus/:line', component: DetailComponent },
+  { path: 'noctilien/:line', component: DetailComponent },
   { path: '**', component: ErrorComponent }
 ];
 
