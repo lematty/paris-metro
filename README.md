@@ -2,17 +2,18 @@
 ![Screenshot](src/assets/Screenshot.png?raw=true "Paris Metro")
 
 
-# ParisMetro
+# ParisTransport
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.1.
+This project is to have a collection of all transportation lines and stations in Paris.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `npm run start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Scripts
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run `npm run {network}:{type}` to build geojson.
+ex. For metro lines run `npm run metro:lines`
 
 ## Build
 
