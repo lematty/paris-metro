@@ -1,0 +1,2721 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.358375469336868,
+                    48.89839212477815
+                ]
+            },
+            "properties": {
+                "line": "T3B",
+                "station": "PORTE DE LA CHAPELLE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.366988444947912,
+                    48.78728035004914
+                ]
+            },
+            "properties": {
+                "line": "T7",
+                "station": "VILLEJUIF-LOUIS ARAGON"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.356321867421057,
+                    48.93895015783626
+                ]
+            },
+            "properties": {
+                "line": "T5",
+                "station": "MARCHE DE SAINT-DENIS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.38658143311372,
+                    48.89742873557869
+                ]
+            },
+            "properties": {
+                "line": "T3B",
+                "station": "PORTE DE LA VILLETTE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.357978331080607,
+                    48.95263788257678
+                ]
+            },
+            "properties": {
+                "line": "T5",
+                "station": "PETIT PIERREFITTE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.395041749682104,
+                    48.897432849464856
+                ]
+            },
+            "properties": {
+                "line": "T3B",
+                "station": "ELLA FITZGERALD"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.366051715676765,
+                    48.97365901297958
+                ]
+            },
+            "properties": {
+                "line": "T5",
+                "station": "BUTTE PINSON"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.357006355105467,
+                    48.94481893266474
+                ]
+            },
+            "properties": {
+                "line": "T5",
+                "station": "ROGER SEMAT"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3733837959986,
+                    48.897552809900425
+                ]
+            },
+            "properties": {
+                "line": "T3B",
+                "station": "ROSA PARKS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.41147348701014,
+                    48.94363000666017
+                ]
+            },
+            "properties": {
+                "line": "T11",
+                "station": "GARE DE DUGNY - LA COURNEUVE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.342053801387074,
+                    48.959318144169146
+                ]
+            },
+            "properties": {
+                "line": "T8",
+                "station": "VILLETANEUSE-UNIVERSITE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.40965605640417,
+                    48.84739389049608
+                ]
+            },
+            "properties": {
+                "line": "T3B",
+                "station": "PORTE DE VINCENNES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.302222741813793,
+                    48.95584304745806
+                ]
+            },
+            "properties": {
+                "line": "T8",
+                "station": "EPINAY-SUR-SEINE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.360746043761456,
+                    48.93808261495897
+                ]
+            },
+            "properties": {
+                "line": "T1",
+                "station": "BASILIQUE DE SAINT-DENIS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.410741136126437,
+                    48.85298727790374
+                ]
+            },
+            "properties": {
+                "line": "T3B",
+                "station": "PORTE DE MONTREUIL"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.408978939744509,
+                    48.86752135721475
+                ]
+            },
+            "properties": {
+                "line": "T3B",
+                "station": "SEVERINE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.300593399375418,
+                    48.933393832020336
+                ]
+            },
+            "properties": {
+                "line": "T1",
+                "station": "TIMBAUD"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.301291292494412,
+                    48.93279020802871
+                ]
+            },
+            "properties": {
+                "line": "T1",
+                "station": "TIMBAUD"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.480348870331727,
+                    48.894048284201254
+                ]
+            },
+            "properties": {
+                "line": "T4",
+                "station": "BONDY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.355902810417396,
+                    48.938597775209935
+                ]
+            },
+            "properties": {
+                "line": "T1",
+                "station": "MARCHE DE SAINT-DENIS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.519103763829303,
+                    48.92664020200147
+                ]
+            },
+            "properties": {
+                "line": "T4",
+                "station": "FREINVILLE-SEVRAN"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.231323159873781,
+                    48.82230993293686
+                ]
+            },
+            "properties": {
+                "line": "T2",
+                "station": "BRIMBORION"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.460523403665098,
+                    48.90670063170016
+                ]
+            },
+            "properties": {
+                "line": "T1",
+                "station": "AUGUSTE DELAUNE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.22595909514488,
+                    48.87600129150149
+                ]
+            },
+            "properties": {
+                "line": "T2",
+                "station": "BELVEDERE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.378225490397901,
+                    48.93173482548615
+                ]
+            },
+            "properties": {
+                "line": "T1",
+                "station": "COSMONAUTES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.39247111932733,
+                    48.927402890758145
+                ]
+            },
+            "properties": {
+                "line": "T1",
+                "station": "HOTEL DE VILLE DE LA COURNEUVE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.435420992985438,
+                    48.912704975295874
+                ]
+            },
+            "properties": {
+                "line": "T1",
+                "station": "ESCADRILLE NORMANDIE-NIEMEN"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.487910987625008,
+                    48.8930946286382
+                ]
+            },
+            "properties": {
+                "line": "T4",
+                "station": "LA REMISE A JORELLE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.51169930327069,
+                    48.902444190569966
+                ]
+            },
+            "properties": {
+                "line": "T4",
+                "station": "LES PAVILLONS-SOUS-BOIS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.460330070883345,
+                    48.895915836209156
+                ]
+            },
+            "properties": {
+                "line": "T1",
+                "station": "NOISY-LE-SEC"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.300851826132675,
+                    48.82867193954727
+                ]
+            },
+            "properties": {
+                "line": "T3A",
+                "station": "PORTE DE BRANCION"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.370053603529677,
+                    48.821829558069034
+                ]
+            },
+            "properties": {
+                "line": "T3A",
+                "station": "PORTE D'IVRY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.325509577822384,
+                    48.82315163312808
+                ]
+            },
+            "properties": {
+                "line": "T3A",
+                "station": "PORTE D'ORLEANS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.339180923415564,
+                    48.94780764959912
+                ]
+            },
+            "properties": {
+                "line": "T8",
+                "station": "BLUMENTHAL"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.311526308692633,
+                    48.95587687488741
+                ]
+            },
+            "properties": {
+                "line": "T8",
+                "station": "LACEPEDE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.30787256835423,
+                    48.95543742610714
+                ]
+            },
+            "properties": {
+                "line": "T8",
+                "station": "GILBERT BONNEMAISON"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.288656005959214,
+                    48.93181399694383
+                ]
+            },
+            "properties": {
+                "line": "T1",
+                "station": "LE LUTH"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.217589799353163,
+                    48.92326825415198
+                ]
+            },
+            "properties": {
+                "line": "T2",
+                "station": "PONT DE BEZONS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.240079252051399,
+                    48.89666439631882
+                ]
+            },
+            "properties": {
+                "line": "T2",
+                "station": "FAUBOURG DE L ARCHE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.239542036316633,
+                    48.902768025562985
+                ]
+            },
+            "properties": {
+                "line": "T2",
+                "station": "LES FAUVELLES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.238309302290676,
+                    48.90766458394418
+                ]
+            },
+            "properties": {
+                "line": "T2",
+                "station": "CHARLEBOURG"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.224812188878315,
+                    48.91751490757929
+                ]
+            },
+            "properties": {
+                "line": "T2",
+                "station": "PARC PIERRE LAGRAVERE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.409685686967028,
+                    48.858704010227065
+                ]
+            },
+            "properties": {
+                "line": "T3B",
+                "station": "MARIE DE MIRIBEL"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.393449698316831,
+                    48.830388589693484
+                ]
+            },
+            "properties": {
+                "line": "T3A",
+                "station": "BARON LE ROY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.377584291457183,
+                    48.82432850347972
+                ]
+            },
+            "properties": {
+                "line": "T3A",
+                "station": "MARYSE BASTIE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.401221761278451,
+                    48.87947036907198
+                ]
+            },
+            "properties": {
+                "line": "T3B",
+                "station": "HOPITAL ROBERT DEBRE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.363651382181137,
+                    48.89849110155687
+                ]
+            },
+            "properties": {
+                "line": "T3B",
+                "station": "COLETTE BESSON"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.358322856150864,
+                    48.95557634800801
+                ]
+            },
+            "properties": {
+                "line": "T5",
+                "station": "JONCHEROLLES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.371747143464364,
+                    48.71451272529017
+                ]
+            },
+            "properties": {
+                "line": "T7",
+                "station": "PORTE DE L'ESSONNE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.361952152582564,
+                    48.75281135969812
+                ]
+            },
+            "properties": {
+                "line": "T7",
+                "station": "PLACE DE LA LOGISTIQUE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.354367279146794,
+                    48.750174037106305
+                ]
+            },
+            "properties": {
+                "line": "T7",
+                "station": "SAARINEN"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.35287534133574,
+                    48.74656858663953
+                ]
+            },
+            "properties": {
+                "line": "T7",
+                "station": "ROBERT SCHUMAN"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.369910146676413,
+                    48.738562777251275
+                ]
+            },
+            "properties": {
+                "line": "T7",
+                "station": "CAROLINE AIGLE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.178798590270473,
+                    48.78512141332815
+                ]
+            },
+            "properties": {
+                "line": "T6",
+                "station": "ROBERT WAGNER"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.180493750928926,
+                    48.7819866725001
+                ]
+            },
+            "properties": {
+                "line": "T6",
+                "station": "L'ONDE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.398350103868386,
+                    48.831993086209216
+                ]
+            },
+            "properties": {
+                "line": "T3A",
+                "station": "PORTE DE CHARENTON"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.380537035488634,
+                    48.898733990652936
+                ]
+            },
+            "properties": {
+                "line": "T3B",
+                "station": "CANAL SAINT-DENIS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.369036949316923,
+                    48.89860117217836
+                ]
+            },
+            "properties": {
+                "line": "T3B",
+                "station": "PORTE D AUBERVILLIERS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.395681074711603,
+                    48.88900764950694
+                ]
+            },
+            "properties": {
+                "line": "T3B",
+                "station": "PORTE DE PANTIN"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.377419673310627,
+                    48.9766656914457
+                ]
+            },
+            "properties": {
+                "line": "T5",
+                "station": "LES FLANADES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.358742504475762,
+                    48.95912109831728
+                ]
+            },
+            "properties": {
+                "line": "T5",
+                "station": "SUZANNE VALADON"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.35536098907642,
+                    48.75267435177292
+                ]
+            },
+            "properties": {
+                "line": "T7",
+                "station": "PORTE DE RUNGIS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.368264128619581,
+                    48.72955072266277
+                ]
+            },
+            "properties": {
+                "line": "T7",
+                "station": "AEROPORT D ORLY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.272650344658386,
+                    48.79446888451292
+                ]
+            },
+            "properties": {
+                "line": "T6",
+                "station": "DIVISION LECLERC"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.220009516856533,
+                    48.78496976326486
+                ]
+            },
+            "properties": {
+                "line": "T6",
+                "station": "VELIZY 2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.214433502050177,
+                    48.78362462215807
+                ]
+            },
+            "properties": {
+                "line": "T6",
+                "station": "DEWOITINE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.300357474428133,
+                    48.810601094494544
+                ]
+            },
+            "properties": {
+                "line": "T6",
+                "station": "CHATILLON MONTROUGE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.352701984386339,
+                    48.932051822712985
+                ]
+            },
+            "properties": {
+                "line": "T8",
+                "station": "PIERRE DE GEYTER"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.347862407755533,
+                    48.93526614581903
+                ]
+            },
+            "properties": {
+                "line": "T8",
+                "station": "GARE DE SAINT-DENIS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.342521826040314,
+                    48.94958134511723
+                ]
+            },
+            "properties": {
+                "line": "T8",
+                "station": "CESAR"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.170967401079032,
+                    48.80107761141682
+                ]
+            },
+            "properties": {
+                "line": "T6",
+                "station": "VIROFLAY RIVE GAUCHE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.496238281204935,
+                    48.931950242402564
+                ]
+            },
+            "properties": {
+                "line": "T4",
+                "station": "AULNAY-SOUS-BOIS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.506408247015323,
+                    48.897143818483
+                ]
+            },
+            "properties": {
+                "line": "T4",
+                "station": "ALLEE DE LA TOUR RENDEZ-VOUS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.295661982822295,
+                    48.82982637901667
+                ]
+            },
+            "properties": {
+                "line": "T3A",
+                "station": "GEORGES BRASSENS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.284007243303418,
+                    48.83435816545286
+                ]
+            },
+            "properties": {
+                "line": "T3A",
+                "station": "DESNOUETTES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.517025495296047,
+                    48.90816541522705
+                ]
+            },
+            "properties": {
+                "line": "T4",
+                "station": "GARGAN"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.237213536457713,
+                    48.89212336383249
+                ]
+            },
+            "properties": {
+                "line": "T2",
+                "station": "LA DEFENSE-GRANDE ARCHE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.350932878064576,
+                    48.82087335522631
+                ]
+            },
+            "properties": {
+                "line": "T3A",
+                "station": "POTERNE DES PEUPLIERS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.26317856570046,
+                    48.82989015779482
+                ]
+            },
+            "properties": {
+                "line": "T2",
+                "station": "ISSY-VAL DE SEINE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.402073414361554,
+                    48.924375143437096
+                ]
+            },
+            "properties": {
+                "line": "T1",
+                "station": "STADE GEO ANDRE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.425009894274451,
+                    48.915837892883054
+                ]
+            },
+            "properties": {
+                "line": "T1",
+                "station": "HOPITAL AVICENNE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.360129742015262,
+                    48.81905151465142
+                ]
+            },
+            "properties": {
+                "line": "T3A",
+                "station": "PORTE D'ITALIE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.276712090531075,
+                    48.833365343840185
+                ]
+            },
+            "properties": {
+                "line": "T2",
+                "station": "SUZANNE LENGLEN"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.431278003470784,
+                    48.91409326441147
+                ]
+            },
+            "properties": {
+                "line": "T1",
+                "station": "GASTON ROULAUD"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.220603560028727,
+                    48.85747140891035
+                ]
+            },
+            "properties": {
+                "line": "T2",
+                "station": "LES COTEAUX"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.437487803577854,
+                    48.90966636535837
+                ]
+            },
+            "properties": {
+                "line": "T1",
+                "station": "LA FERME"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.409551429797562,
+                    48.84694815095243
+                ]
+            },
+            "properties": {
+                "line": "T3A",
+                "station": "PORTE DE VINCENNES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.39067488093308,
+                    48.977160715485596
+                ]
+            },
+            "properties": {
+                "line": "T5",
+                "station": "GARGES-SARCELLES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.41013203807822,
+                    48.84377178668507
+                ]
+            },
+            "properties": {
+                "line": "T3A",
+                "station": "ALEXANDRA DAVID-NEEL"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.408832465143973,
+                    48.86343374196472
+                ]
+            },
+            "properties": {
+                "line": "T3B",
+                "station": "PORTE DE BAGNOLET"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.408577577424641,
+                    48.87240409441091
+                ]
+            },
+            "properties": {
+                "line": "T3B",
+                "station": "ADRIENNE BOLLAND"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.397738850646979,
+                    48.89388028252993
+                ]
+            },
+            "properties": {
+                "line": "T3B",
+                "station": "DELPHINE SEYRIG"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.406657147135102,
+                    48.8355222083493
+                ]
+            },
+            "properties": {
+                "line": "T3A",
+                "station": "PORTE DOREE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3458035798426,
+                    48.81950050990105
+                ]
+            },
+            "properties": {
+                "line": "T3A",
+                "station": "STADE CHARLETY (PORTE DE GENTILLY)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.515049662417906,
+                    48.930934182986604
+                ]
+            },
+            "properties": {
+                "line": "T4",
+                "station": "ROUGEMONT-CHANTELOUP"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.221410603981162,
+                    48.86823878485543
+                ]
+            },
+            "properties": {
+                "line": "T2",
+                "station": "SURESNES-LONGCHAMP"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.225312853280434,
+                    48.8290105027951
+                ]
+            },
+            "properties": {
+                "line": "T2",
+                "station": "MUSEE DE SEVRES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.41383718232087,
+                    48.919179027732525
+                ]
+            },
+            "properties": {
+                "line": "T1",
+                "station": "MAURICE LACHATRE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.238598337792144,
+                    48.819174329133155
+                ]
+            },
+            "properties": {
+                "line": "T2",
+                "station": "MEUDON-SUR-SEINE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.333339832857646,
+                    48.82150891739615
+                ]
+            },
+            "properties": {
+                "line": "T3A",
+                "station": "MONTSOURIS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.43862449586348,
+                    48.90693183212792
+                ]
+            },
+            "properties": {
+                "line": "T1",
+                "station": "LIBERATION"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.465460481358355,
+                    48.90041730406597
+                ]
+            },
+            "properties": {
+                "line": "T1",
+                "station": "PETIT NOISY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.221232683266963,
+                    48.84985048784913
+                ]
+            },
+            "properties": {
+                "line": "T2",
+                "station": "LES MILONS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.263389166015155,
+                    48.79033300192819
+                ]
+            },
+            "properties": {
+                "line": "T6",
+                "station": "SOLEIL LEVANT"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.230983558938873,
+                    48.783500975704136
+                ]
+            },
+            "properties": {
+                "line": "T6",
+                "station": "GEORGES MILLANDY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.209129227294876,
+                    48.78140432088544
+                ]
+            },
+            "properties": {
+                "line": "T6",
+                "station": "INOVEL PARC NORD"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.191409919273295,
+                    48.78045471153041
+                ]
+            },
+            "properties": {
+                "line": "T6",
+                "station": "MAIRIE DE VELIZY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.347312925167514,
+                    48.94555553922783
+                ]
+            },
+            "properties": {
+                "line": "T8",
+                "station": "DELAUNAY-BELLEVILLE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.450004663029331,
+                    48.90653328847081
+                ]
+            },
+            "properties": {
+                "line": "T1",
+                "station": "BOBIGNY-PABLO PICASSO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.406622753709041,
+                    48.92271118925899
+                ]
+            },
+            "properties": {
+                "line": "T1",
+                "station": "DANTON"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.363640702197924,
+                    48.93638914706169
+                ]
+            },
+            "properties": {
+                "line": "T1",
+                "station": "CIMETIERE DE SAINT-DENIS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.384758861440773,
+                    48.92997102621437
+                ]
+            },
+            "properties": {
+                "line": "T1",
+                "station": "SIX ROUTES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.516443535174537,
+                    48.92192614328032
+                ]
+            },
+            "properties": {
+                "line": "T4",
+                "station": "L'ABBAYE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.499388457291095,
+                    48.89250476140823
+                ]
+            },
+            "properties": {
+                "line": "T4",
+                "station": "LES COQUETIERS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.251336156214502,
+                    48.82151752251852
+                ]
+            },
+            "properties": {
+                "line": "T2",
+                "station": "LES MOULINEAUX"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.515061446192154,
+                    48.91609650409271
+                ]
+            },
+            "properties": {
+                "line": "T4",
+                "station": "LYCEE HENRI SELLIER"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.469971543614439,
+                    48.90470320377428
+                ]
+            },
+            "properties": {
+                "line": "T1",
+                "station": "PONT DE BONDY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.318829691269952,
+                    48.82471101789667
+                ]
+            },
+            "properties": {
+                "line": "T3A",
+                "station": "JEAN MOULIN"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.288069457597242,
+                    48.83267687187787
+                ]
+            },
+            "properties": {
+                "line": "T3A",
+                "station": "PORTE DE VERSAILLES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.287207139172819,
+                    48.83187246840469
+                ]
+            },
+            "properties": {
+                "line": "T2",
+                "station": "PORTE DE VERSAILLES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.320216521669494,
+                    48.951708783590085
+                ]
+            },
+            "properties": {
+                "line": "T8",
+                "station": "LES BEATUS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.334332913159428,
+                    48.935605709251504
+                ]
+            },
+            "properties": {
+                "line": "T1",
+                "station": "MAIRIE DE VILLENEUVE-LA-GARENNE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.313132640503475,
+                    48.93393202888011
+                ]
+            },
+            "properties": {
+                "line": "T1",
+                "station": "PARC DES CHANTERAINES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.283722557328398,
+                    48.93021421228677
+                ]
+            },
+            "properties": {
+                "line": "T1",
+                "station": "LES COURTILLES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.381165591961911,
+                    48.825570228624414
+                ]
+            },
+            "properties": {
+                "line": "T3A",
+                "station": "AVENUE DE FRANCE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.396751288803897,
+                    48.885016789193514
+                ]
+            },
+            "properties": {
+                "line": "T3B",
+                "station": "BUTTE DU CHAPEAU ROUGE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.366003889114339,
+                    48.97088340423817
+                ]
+            },
+            "properties": {
+                "line": "T5",
+                "station": "JACQUES PREVERT"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.363572223970633,
+                    48.96585557438446
+                ]
+            },
+            "properties": {
+                "line": "T5",
+                "station": "ALCIDE D'ORBIGNY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.360250758647362,
+                    48.96351794635936
+                ]
+            },
+            "properties": {
+                "line": "T5",
+                "station": "MAIRIE DE PIERREFITTE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.368041520670991,
+                    48.76822178037075
+                ]
+            },
+            "properties": {
+                "line": "T7",
+                "station": "BRETAGNE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.289057253599707,
+                    48.804204938303016
+                ]
+            },
+            "properties": {
+                "line": "T6",
+                "station": "CENTRE DE CHATILLON"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.278119176961232,
+                    48.83612297928516
+                ]
+            },
+            "properties": {
+                "line": "T3A",
+                "station": "BALARD"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.313380087377887,
+                    48.82592054607216
+                ]
+            },
+            "properties": {
+                "line": "T3A",
+                "station": "DIDOT"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.417691093337975,
+                    48.917783725255454
+                ]
+            },
+            "properties": {
+                "line": "T1",
+                "station": "DRANCY-AVENIR"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.338580749640995,
+                    48.82035003419019
+                ]
+            },
+            "properties": {
+                "line": "T3A",
+                "station": "CITE UNIVERSITAIRE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.37108317162386,
+                    48.9335864037298
+                ]
+            },
+            "properties": {
+                "line": "T1",
+                "station": "HOPITAL DELAFONTAINE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.443992334554137,
+                    48.906536559058885
+                ]
+            },
+            "properties": {
+                "line": "T1",
+                "station": "HOTEL DE VILLE - MAISON DE LA CULTURE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.260539913667206,
+                    48.824767025514404
+                ]
+            },
+            "properties": {
+                "line": "T2",
+                "station": "JACQUES-HENRI LARTIGUE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.454352826517924,
+                    48.90781254678193
+                ]
+            },
+            "properties": {
+                "line": "T1",
+                "station": "JEAN ROSTAND"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.410598615094689,
+                    48.920785969955396
+                ]
+            },
+            "properties": {
+                "line": "T1",
+                "station": "LA COURNEUVE 8 MAI 1945"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.221851494752013,
+                    48.843124399912504
+                ]
+            },
+            "properties": {
+                "line": "T2",
+                "station": "PARC DE SAINT-CLOUD"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.271174402071582,
+                    48.83807589055151
+                ]
+            },
+            "properties": {
+                "line": "T3A",
+                "station": "PONT DU GARIGLIANO - HOPITAL EUROPEEN GEORGES POMPIDOU"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.364015462182523,
+                    48.81976126757108
+                ]
+            },
+            "properties": {
+                "line": "T3A",
+                "station": "PORTE DE CHOISY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.306635926513704,
+                    48.827414858654514
+                ]
+            },
+            "properties": {
+                "line": "T3A",
+                "station": "PORTE DE VANVES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.233871433790775,
+                    48.88333487655372
+                ]
+            },
+            "properties": {
+                "line": "T2",
+                "station": "PUTEAUX"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.34644376242267,
+                    48.93613469226443
+                ]
+            },
+            "properties": {
+                "line": "T1",
+                "station": "GARE DE SAINT-DENIS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.281470444083868,
+                    48.831696593107
+                ]
+            },
+            "properties": {
+                "line": "T2",
+                "station": "PORTE D'ISSY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.350400018540065,
+                    48.93750989644162
+                ]
+            },
+            "properties": {
+                "line": "T1",
+                "station": "THEATRE GERARD PHILIPE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.328832171353944,
+                    48.94993773565708
+                ]
+            },
+            "properties": {
+                "line": "T8",
+                "station": "LES MOBILES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.315403612112168,
+                    48.95316824676445
+                ]
+            },
+            "properties": {
+                "line": "T8",
+                "station": "ROSE BERTIN"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.326793312266221,
+                    48.93497582668586
+                ]
+            },
+            "properties": {
+                "line": "T1",
+                "station": "LA NOUE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.32149519817071,
+                    48.93460856766366
+                ]
+            },
+            "properties": {
+                "line": "T1",
+                "station": "CHEMIN DES RENIERS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.408866850400784,
+                    48.8398410732243
+                ]
+            },
+            "properties": {
+                "line": "T3A",
+                "station": "MONTEMPOIVRE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.357292070882457,
+                    48.92981642738062
+                ]
+            },
+            "properties": {
+                "line": "T8",
+                "station": "SAINT-DENIS-PORTE DE PARIS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.345207505927952,
+                    48.93968870865853
+                ]
+            },
+            "properties": {
+                "line": "T8",
+                "station": "PAUL ELUARD"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.343461279526826,
+                    48.9527263298977
+                ]
+            },
+            "properties": {
+                "line": "T8",
+                "station": "JEAN VILAR"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.246977649164128,
+                    48.78368721522512
+                ]
+            },
+            "properties": {
+                "line": "T6",
+                "station": "MAIL DE LA PLAINE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.225280295281189,
+                    48.78353933276511
+                ]
+            },
+            "properties": {
+                "line": "T6",
+                "station": "MEUDON-LA-FORET"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.237132704968193,
+                    48.78490216629835
+                ]
+            },
+            "properties": {
+                "line": "T6",
+                "station": "GEORGES POMPIDOU"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.23983201762499,
+                    48.780730969150184
+                ]
+            },
+            "properties": {
+                "line": "T6",
+                "station": "PAVE BLANC"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294091244318829,
+                    48.807169846835585
+                ]
+            },
+            "properties": {
+                "line": "T6",
+                "station": "VAUBAN"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.366398000043218,
+                    48.75957353526183
+                ]
+            },
+            "properties": {
+                "line": "T7",
+                "station": "PORTE DE THIAIS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.359467821095852,
+                    48.739987430378214
+                ]
+            },
+            "properties": {
+                "line": "T7",
+                "station": "HELENE BOUCHER"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.352795381310017,
+                    48.741684493136425
+                ]
+            },
+            "properties": {
+                "line": "T7",
+                "station": "FRATERNELLE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.371250376223923,
+                    48.73408816211109
+                ]
+            },
+            "properties": {
+                "line": "T7",
+                "station": "COEUR D'ORLY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.367815001629962,
+                    48.77207421663938
+                ]
+            },
+            "properties": {
+                "line": "T7",
+                "station": "MOULIN VERT"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.372242923708274,
+                    48.9774930899753
+                ]
+            },
+            "properties": {
+                "line": "T5",
+                "station": "LES CHOLETTES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.385049192009276,
+                    48.9785246242919
+                ]
+            },
+            "properties": {
+                "line": "T5",
+                "station": "LES LOCHERES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.380204254325136,
+                    48.97927612626855
+                ]
+            },
+            "properties": {
+                "line": "T5",
+                "station": "PAUL VALERY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.356729741525478,
+                    48.942125455106826
+                ]
+            },
+            "properties": {
+                "line": "T5",
+                "station": "BAUDELAIRE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.35746152626202,
+                    48.948208128479344
+                ]
+            },
+            "properties": {
+                "line": "T5",
+                "station": "GUYNEMER"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.169070049430458,
+                    48.80570415485828
+                ]
+            },
+            "properties": {
+                "line": "T6",
+                "station": "VIROFLAY RIVE DROITE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.367405864497286,
+                    48.7789363930864
+                ]
+            },
+            "properties": {
+                "line": "T7",
+                "station": "DOMAINE CHERIOUX"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.368364698633332,
+                    48.75673943351173
+                ]
+            },
+            "properties": {
+                "line": "T7",
+                "station": "LA BELLE EPINE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.36779053573481,
+                    48.763375152982455
+                ]
+            },
+            "properties": {
+                "line": "T7",
+                "station": "AUGUSTE PERRET"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.367157833315663,
+                    48.783107550449365
+                ]
+            },
+            "properties": {
+                "line": "T7",
+                "station": "LAMARTINE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.34310923572538,
+                    48.9566718460312
+                ]
+            },
+            "properties": {
+                "line": "T8",
+                "station": "PABLO NERUDA"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.281951320169448,
+                    48.79988738317761
+                ]
+            },
+            "properties": {
+                "line": "T6",
+                "station": "PARC ANDRE MALRAUX"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.254502152039991,
+                    48.78671618223311
+                ]
+            },
+            "properties": {
+                "line": "T6",
+                "station": "HOPITAL BECLERE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.196505812489855,
+                    48.780087151988496
+                ]
+            },
+            "properties": {
+                "line": "T6",
+                "station": "LOUVOIS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.343414543882292,
+                    48.96003376394423
+                ]
+            },
+            "properties": {
+                "line": "T11",
+                "station": "GARE DE VILLETANEUSE - UNIVERSITE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.390955086162519,
+                    48.95492900449691
+                ]
+            },
+            "properties": {
+                "line": "T11",
+                "station": "GARE DE STAINS LA CERISAIE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.423464552379919,
+                    48.93020617892931
+                ]
+            },
+            "properties": {
+                "line": "T11",
+                "station": "GARE DU BOURGET"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.329275699763007,
+                    48.95912802097736
+                ]
+            },
+            "properties": {
+                "line": "T11",
+                "station": "GARE D'EPINAY VILLETANEUSE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.295591694903069,
+                    48.9555044771186
+                ]
+            },
+            "properties": {
+                "line": "T8",
+                "station": "EPINAY-ORGEMONT"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.307089653527023,
+                    48.93344984077206
+                ]
+            },
+            "properties": {
+                "line": "T1",
+                "station": "GARE DE GENNEVILLIERS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.339108387008138,
+                    48.93574804209917
+                ]
+            },
+            "properties": {
+                "line": "T1",
+                "station": "L ILE-SAINT-DENIS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.407034921962184,
+                    48.87656877529156
+                ]
+            },
+            "properties": {
+                "line": "T3B",
+                "station": "PORTE DES LILAS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.233988601425483,
+                    48.91080258974541
+                ]
+            },
+            "properties": {
+                "line": "T2",
+                "station": "JACQUELINE AURIOL"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.271241500937831,
+                    48.834750010355144
+                ]
+            },
+            "properties": {
+                "line": "T2",
+                "station": "HENRI FARMANN"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.229571613287509,
+                    48.91404768066787
+                ]
+            },
+            "properties": {
+                "line": "T2",
+                "station": "VICTOR BASCH"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.294602989386074,
+                    48.933355382229045
+                ]
+            },
+            "properties": {
+                "line": "T1",
+                "station": "LE VILLAGE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.302305082030494,
+                    48.95456256277915
+                ]
+            },
+            "properties": {
+                "line": "T11",
+                "station": "GARE D'EPINAY SUR SEINE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.365842107661724,
+                    48.96016288691666
+                ]
+            },
+            "properties": {
+                "line": "T11",
+                "station": "GARE DE PIERREFITTE STAINS"
+            }
+        }
+    ]
+}

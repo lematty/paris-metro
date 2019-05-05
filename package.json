@@ -3,12 +3,18 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "dev": "ng serve",
     "build": "ng build",
     "metro:stations": "ts-node ./src/scripts/geojson-builder.ts metro stations",
     "metro:lines": "ts-node ./src/scripts/geojson-builder.ts metro lines",
     "rer:stations": "ts-node ./src/scripts/geojson-builder.ts rer stations",
     "rer:lines": "ts-node ./src/scripts/geojson-builder.ts rer lines",
+    "tram:stations": "ts-node ./src/scripts/geojson-builder.ts tram stations",
+    "tram:lines": "ts-node ./src/scripts/geojson-builder.ts tram lines",
+    "bus:stations": "ts-node ./src/scripts/geojson-builder.ts bus stations",
+    "bus:lines": "ts-node ./src/scripts/geojson-builder.ts bus lines",
+    "noctilien:stations": "ts-node ./src/scripts/geojson-builder.ts noctilien stations",
+    "noctilien:lines": "ts-node ./src/scripts/geojson-builder.ts noctilien lines",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -36,6 +42,7 @@
     "ngx-mapbox-gl": "^2.3.3",
     "popper.js": "^1.15.0",
     "rxjs": "^6.5.1",
+    "tar": ">=4.4.2",
     "zone.js": "^0.8.29"
   },
   "devDependencies": {
@@ -56,6 +63,7 @@
     "karma-jasmine": "~1.1.1",
     "karma-jasmine-html-reporter": "^0.2.2",
     "protractor": "^6.0.0",
+    "tar": ">=4.4.2",
     "ts-node": "^5.0.1",
     "tslint": "~5.9.1",
     "typescript": "^3.2.4"

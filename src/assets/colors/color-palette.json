@@ -1,0 +1,136 @@
+{
+  "metro": [
+    {
+      "name": "M1",
+      "color": "#F2C931"
+    },
+    {
+      "name": "M2",
+      "color": "#216EB4"
+    },
+    {
+      "name": "M3",
+      "color": "#9A9940"
+    },
+    {
+      "name": "M3bis",
+      "color": "#89C7D6"
+    },
+    {
+      "name": "M4",
+      "color": "#BB4D98"
+    },
+    {
+      "name": "M5",
+      "color": "#DE8B53"
+    },
+    {
+      "name": "M6",
+      "color": "#75c695"
+    },
+    {
+      "name": "M7",
+      "color": "#DF9AB1"
+    },
+    {
+      "name": "M7bis",
+      "color": "#79BB92"
+    },
+    {
+      "name": "M8",
+      "color": "#C5A3CA"
+    },
+    {
+      "name": "M9",
+      "color": "#CDC83F"
+    },
+    {
+      "name": "M10",
+      "color": "#DFB039"
+    },
+    {
+      "name": "M11",
+      "color": "#8E6538"
+    },
+    {
+      "name": "M12",
+      "color": "#328E5B"
+    },
+    {
+      "name": "M13",
+      "color": "#89C7D6"
+    },
+    {
+      "name": "M14",
+      "color": "#67328E"
+    }
+  ],
+  "rer": [
+    {
+      "name": "RER A",
+      "color": "#FF1400"
+    },
+    {
+      "name": "RER B",
+      "color": "#3C91DC"
+    },
+    {
+      "name": "RER C",
+      "color": "#F3D311"
+    },
+    {
+      "name": "RER D",
+      "color": "#3F9C35"
+    },
+    {
+      "name": "RER E",
+      "color": "#DE81D3"
+    },
+    {
+      "name": "RER F",
+      "color": "#FF1400"
+    }
+  ],
+  "tram": [
+    {
+      "name": "T1",
+      "color": "#0064AC"
+    },
+    {
+      "name": "T2",
+      "color": "#BA3087"
+    },
+    {
+      "name": "T3A",
+      "color": "#F78C48"
+    },
+    {
+      "name": "T3B",
+      "color": "#00A962"
+    },
+    {
+      "name": "T4",
+      "color": "#F2AF00"
+    },
+    {
+      "name": "T5",
+      "color": "#662B91"
+    },
+    {
+      "name": "T6",
+      "color": "#EC5839"
+    },
+    {
+      "name": "T7",
+      "color": "#B98B59"
+    },
+    {
+      "name": "T8",
+      "color": "#B1A245"
+    },
+    {
+      "name": "T11",
+      "color": "#E74A2B"
+    }
+  ]
+}

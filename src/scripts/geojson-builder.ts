@@ -1,33 +1,25 @@
-const fs = require('fs');
 import { FeatureCollection, Feature, Point, LineString, MultiLineString } from 'geojson';
 import { Station, Line } from 'src/app/shared/station.model';
 
-const LINES_SOURCE: FeatureCollection = require('../assets/geojson/rer-metro-tram.geojson.json');
-const STATIONS_SOURCE: FeatureCollection = require('../assets/geojson/stations.geojson.json');
-const PARAMETERS = {
-  metro: {
-    name: 'Metro',
-    stations: '../assets/geojson/metro/paris-metro-stations.geojson.json',
-    lines: '../assets/geojson/metro/paris-metro-lines.geojson.json',
-  },
-  rer: {
-    name: 'RER',
-    stations: '../assets/geojson/rer/paris-rer-stations.geojson.json',
-    lines: '../assets/geojson/rer/paris-rer-lines.geojson.json',
-  },
-  tram: {
-    name: 'Tramway',
-    stations: '../assets/geojson/tram/paris-tram-stations.geojson.json',
-    lines: '../assets/geojson/tram/paris-tram-lines.geojson.json',
-  }
-};
+const fs = require('fs');
+const colors = require('../assets/colors/color-palette.json');
+
+enum SearchName {
+  metro = 'Metro',
+  rer = 'RER',
+  tram = 'Tramway',
+  bus = 'Bus',
+  noctilien = 'Noctilien',
+}
 
 const NETWORK_NAME = process.argv[2];
 const NETWORK_TYPE = process.argv[3];
-const OUTPUT_FILE = PARAMETERS[NETWORK_NAME][NETWORK_TYPE];
-const SEARCH_PARAMETER = PARAMETERS[NETWORK_NAME].name;
-const isStations = process.argv[3] === 'stations';
+const LINES_SOURCE: FeatureCollection = require('../assets/geojson/rer-metro-tram.geojson.json');
+const STATIONS_SOURCE: FeatureCollection = require('../assets/geojson/stations.geojson.json');
+const OUTPUT_FILE = `src/assets/geojson/${NETWORK_NAME}/paris-${NETWORK_NAME}-${NETWORK_TYPE}.geojson.json`;
+const isStations = NETWORK_TYPE === 'stations';
 const SOURCE_FILE = isStations ? STATIONS_SOURCE : LINES_SOURCE;
+
 
 function searchForTransportType(network: string): FeatureCollection {
   const filtered = SOURCE_FILE.features.filter((feature: Feature) => {
@@ -63,12 +55,14 @@ function formatLines(geojson: FeatureCollection): FeatureCollection {
   const formattedFeatureCollection: FeatureCollection = {
     type: 'FeatureCollection',
     features: geojson.features.map((feature: Feature) => {
+      const lineName = feature.properties.res_com;
+      const colorSearch = colors[NETWORK_NAME].find(line => line.name === lineName);
       const formatFeature: Line = {
         type: feature.type,
         geometry: feature.geometry as LineString | MultiLineString,
         properties: {
-          line: feature.properties.res_com,
-          color: !feature.properties.color ? '#FFFFFF' : feature.properties.color,
+          line: lineName,
+          color: !colorSearch ? '#FFFFFF' : colorSearch.color,
         }
       };
       return formatFeature;
@@ -78,6 +72,7 @@ function formatLines(geojson: FeatureCollection): FeatureCollection {
 }
 
 function createOrRewriteFile(data: FeatureCollection) {
+  console.log(OUTPUT_FILE);
   fs.writeFile(OUTPUT_FILE, JSON.stringify(data), err => {
     if (err) {
       console.log(err);
@@ -88,10 +83,9 @@ function createOrRewriteFile(data: FeatureCollection) {
 }
 
 function main() {
-  const data = searchForTransportType(SEARCH_PARAMETER);
+  const data = searchForTransportType(SearchName[NETWORK_NAME]);
   const newGeoJson = isStations ? formatStations(data) : formatLines(data);
-  console.log(newGeoJson.features[0]);
-  // createOrRewriteFile(newGeoJson);
+  createOrRewriteFile(newGeoJson);
 }
 
 main();
