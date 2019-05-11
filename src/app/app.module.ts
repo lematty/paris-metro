@@ -30,26 +30,24 @@ const routes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
-    TramMapComponent,
-    MapComponent,
+    DropDownContainerComponent,
     DetailComponent,
     ErrorComponent,
     HomeComponent,
-    DropDownContainerComponent,
-    DetailComponent
+    MapComponent,
+    TramMapComponent,
   ],
   imports: [
-    BrowserModule,
-    HttpClientModule,
-    RouterModule.forRoot(routes),
-    NgbModule.forRoot(),
     AgmCoreModule.forRoot({
       apiKey: environment.GOOGLE_MAPS_API_KEY
     }),
+    BrowserModule,
+    HttpClientModule,
+    NgbModule.forRoot(),
     NgxMapboxGLModule.withConfig({
       accessToken: environment.MAPBOX_API_KEY,
     }),
+    RouterModule.forRoot(routes),
   ],
   providers: [
     MetroService,

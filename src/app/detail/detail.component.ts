@@ -1,7 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { MetroService } from '../services/metro.service';
-import { MapboxFormat } from '../models/mapbox-format';
+import { MapboxFormat, NetworkType, LINES, STATIONS } from '../models';
 
 @Component({
   selector: 'app-detail',
@@ -10,8 +10,10 @@ import { MapboxFormat } from '../models/mapbox-format';
 })
 
 export class DetailComponent implements OnInit {
-  latitude: number;
-  longitude: number;
+  @Input() network: NetworkType = 'metro';
+
+  latitude = 48.8566;
+  longitude = 2.34;
   zoom = 10.7;
   color = {
     'type': 'identity',
@@ -20,20 +22,17 @@ export class DetailComponent implements OnInit {
   lineName: string;
   lineCoords: MapboxFormat;
   stations: MapboxFormat;
-  network: string;
 
-  constructor(private _metroService: MetroService, private route: ActivatedRoute) {
+  constructor(private metroService: MetroService, private route: ActivatedRoute) {
     this.getParameters();
-    this.latitude = 48.8566;
-    this.longitude = 2.34;
     this.getLineInfo(this.lineName);
   }
 
   ngOnInit() {}
 
   async getLineInfo(line: string) {
-    this.lineCoords = await this._metroService.getOneLine(this.network, line);
-    this.stations = await this._metroService.getStationsByLine(this.network, line);
+    this.lineCoords = await this.metroService.getOneLineInfo(this.network, line, LINES);
+    this.stations = await this.metroService.getOneLineInfo(this.network, line, STATIONS);
   }
 
   async getParameters() {

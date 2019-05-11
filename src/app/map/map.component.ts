@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { MetroService } from '../services/metro.service';
 import { Map } from 'mapbox-gl';
 import { MapboxFormat } from '../models/mapbox-format';
+import { NetworkType } from '../models/network.type';
+import { SearchType } from '../models/search.type';
 
 @Component({
   selector: 'app-map',
@@ -19,22 +21,23 @@ export class MapComponent implements OnInit {
     'property': 'color'
   };
 
-  constructor(private _metroService: MetroService) { }
+  constructor(private metroService: MetroService) { }
 
   ngOnInit() {
     this.getMetroLines();
     this.getMetroStations();
   }
 
-  async getLines(network: string, type: string) {
-    this.lines = await this._metroService.getAllLineCoords(network);
-  }
+  // TODO: make generic search function
+  // async getLines(network: NetworkType, type: SearchType) {
+  //   this.lines = await this.metroService.getAllLineCoords(network, type);
+  // }
 
   async getMetroLines() {
-    this.lines = await this._metroService.getAllLineCoords('metro');
+    this.lines = await this.metroService.getAllLineCoords('metro');
   }
 
   async getMetroStations() {
-    this.stations = await this._metroService.getAllStationCoords('metro');
+    this.stations = await this.metroService.getAllStationCoords('metro');
   }
 }

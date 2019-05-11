@@ -1,6 +1,8 @@
 <div style="text-align:center">
   <div class="container pt-4">
-    <app-drop-down-container></app-drop-down-container>
+    <h2>{{ network }}</h2>
+    <div></div>
+    <app-drop-down-container (network)="receiveMessage($event)"></app-drop-down-container>
     <router-outlet></router-outlet>
   <!--<app-tram-map></app-tram-map>-->
 </div>

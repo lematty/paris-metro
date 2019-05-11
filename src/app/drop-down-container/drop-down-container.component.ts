@@ -21,7 +21,7 @@ export class DropDownContainerComponent implements OnInit {
   public BUS = 'bus';
   public NOCTILIEN = 'noctilien';
 
-  @Output() selectedLine = new EventEmitter<string>();
+  @Output() network = new EventEmitter<string>();
 
   constructor(private _metroService: MetroService, private router: Router) { }
 
@@ -53,7 +53,8 @@ export class DropDownContainerComponent implements OnInit {
   }
 
   sendNetwork(network: string) {
-    this.selectedLine.emit(network);
+    console.log(network);
+    this.network.emit(network);
   }
 
   // onSelect(lineName: string) {
