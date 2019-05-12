@@ -7,10 +7,8 @@ import { AppComponent } from './app.component';
 import { MapComponent } from './map/map.component';
 import { RouterModule, Routes } from '@angular/router';
 
-import { MetroService } from './services/metro.service';
+import { TransportDataService } from './services/transport-data.service';
 import { environment } from '../environments/environment';
-import { TrainTramService } from './services/train-tram.service';
-import { TramMapComponent } from './tram-map/tram-map.component';
 import { DetailComponent } from './detail/detail.component';
 import { HomeComponent } from './home/home.component';
 import { DropDownContainerComponent } from './drop-down-container/drop-down-container.component';
@@ -30,7 +28,6 @@ const routes: Routes = [
     ErrorComponent,
     HomeComponent,
     MapComponent,
-    TramMapComponent,
   ],
   imports: [
     AgmCoreModule.forRoot({
@@ -42,8 +39,7 @@ const routes: Routes = [
     RouterModule.forRoot(routes),
   ],
   providers: [
-    MetroService,
-    TrainTramService
+    TransportDataService,
   ],
   bootstrap: [AppComponent]
 })

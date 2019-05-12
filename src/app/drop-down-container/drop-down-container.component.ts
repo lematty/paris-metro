@@ -1,6 +1,5 @@
-import { MetroService } from '../services/metro.service';
+import { TransportDataService } from '../services/transport-data.service';
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
 import { METRO, RER, TRAM, BUS, NOCTILIEN } from '../models';
 
 @Component({
@@ -16,7 +15,7 @@ export class DropDownContainerComponent implements OnInit {
   public noctiliens = [];
   public trams = [];
 
-  constructor(private _metroService: MetroService, private router: Router) { }
+  constructor(private transportDataService: TransportDataService) { }
 
   ngOnInit() {
     this.getMetroLines();
@@ -28,21 +27,21 @@ export class DropDownContainerComponent implements OnInit {
   }
 
   async getMetroLines() {
-    this.metros = await this._metroService.getAllLineNames(METRO);
+    this.metros = await this.transportDataService.getAllLineNames(METRO);
   }
   async getRerLines() {
-    this.rers = await this._metroService.getAllLineNames(RER);
+    this.rers = await this.transportDataService.getAllLineNames(RER);
   }
 
   async getTramLines() {
-    this.trams = await this._metroService.getAllLineNames(TRAM);
+    this.trams = await this.transportDataService.getAllLineNames(TRAM);
   }
 
   async getBusLines() {
-    this.buses = await this._metroService.getAllLineNames(BUS);
+    this.buses = await this.transportDataService.getAllLineNames(BUS);
   }
 
   async getNoctilienLines() {
-    this.noctiliens = await this._metroService.getAllLineNames(NOCTILIEN);
+    this.noctiliens = await this.transportDataService.getAllLineNames(NOCTILIEN);
   }
 }

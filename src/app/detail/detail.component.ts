@@ -1,6 +1,6 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { MetroService } from '../services/metro.service';
+import { TransportDataService } from '../services/transport-data.service';
 import { MapboxFormat, NetworkType, LINES, STATIONS } from '../models';
 import { environment } from 'src/environments/environment';
 import * as mapboxgl from 'mapbox-gl';
@@ -21,14 +21,14 @@ export class DetailComponent implements OnInit, AfterViewInit {
   lineCoords: MapboxFormat;
   stations: MapboxFormat;
   style = 'mapbox://styles/mapbox/dark-v9';
-  color = {
+  color: mapboxgl.StyleFunction = {
     'type': 'identity',
     'property': 'color'
   };
   map: mapboxgl.Map;
 
 
-  constructor(private metroService: MetroService, private route: ActivatedRoute) {
+  constructor(private transportDataService: TransportDataService, private route: ActivatedRoute) {
     this.getParameters();
     (mapboxgl as typeof mapboxgl).accessToken = environment.MAPBOX_API_KEY;
   }
@@ -39,8 +39,8 @@ export class DetailComponent implements OnInit, AfterViewInit {
     if (this.map && (this.map.getLayer(LINES) || this.map.getLayer(STATIONS))) {
       this.removeLayer();
     }
-    this.lineCoords = await this.metroService.getOneLineInfo(this.network, line, LINES);
-    this.stations = await this.metroService.getOneLineInfo(this.network, line, STATIONS);
+    this.lineCoords = await this.transportDataService.getOneLineInfo(this.network, line, LINES);
+    this.stations = await this.transportDataService.getOneLineInfo(this.network, line, STATIONS);
     this.addLayer();
   }
 

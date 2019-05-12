@@ -7,7 +7,7 @@ import { NetworkType, MapboxFormat, SearchType, LINES, STATIONS } from '../model
 @Injectable({
   providedIn: 'root'
 })
-export class MetroService {
+export class TransportDataService {
 
   constructor(private http: HttpClient) { }
 

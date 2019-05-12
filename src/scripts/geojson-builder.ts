@@ -1,5 +1,6 @@
 import { FeatureCollection, Feature, Point, LineString, MultiLineString } from 'geojson';
-import { Station, Line } from 'src/app/shared/station.model';
+import { Station, Line } from 'src/app/models';
+
 
 const fs = require('fs');
 const colors = require('../assets/colors/color-palette.json');

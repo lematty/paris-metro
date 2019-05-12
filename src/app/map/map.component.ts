@@ -1,5 +1,5 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
-import { MetroService } from '../services/metro.service';
+import { TransportDataService } from '../services/transport-data.service';
 import { Map } from 'mapbox-gl';
 import { MapboxFormat } from '../models/mapbox-format';
 import * as mapboxgl from 'mapbox-gl';
@@ -18,27 +18,26 @@ export class MapComponent implements OnInit, AfterViewInit {
   zoom = 10.7;
   lines: MapboxFormat;
   stations: MapboxFormat;
-  color = {
+  color: mapboxgl.StyleFunction = {
     'type': 'identity',
     'property': 'color'
   };
   style = 'mapbox://styles/mapbox/dark-v9';
 
-  constructor(private metroService: MetroService) {
+  constructor(private transportDataService: TransportDataService) {
     (mapboxgl as typeof mapboxgl).accessToken = environment.MAPBOX_API_KEY;
   }
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
   // TODO: make generic search function
   // async getLines(network: NetworkType, type: SearchType) {
-  //   this.lines = await this.metroService.getAllLineCoords(network, type);
+  //   this.lines = await this.transportDataService.getAllLineCoords(network, type);
   // }
 
   async getMetroData(): Promise<void> {
-    this.lines = await this.metroService.getAllLineCoords(METRO);
-    this.stations = await this.metroService.getAllStationCoords(METRO);
+    this.lines = await this.transportDataService.getAllLineCoords(METRO);
+    this.stations = await this.transportDataService.getAllStationCoords(METRO);
     this.addLayer();
   }
 
