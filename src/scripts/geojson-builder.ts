@@ -15,7 +15,7 @@ enum SearchName {
 
 const NETWORK_NAME = process.argv[2];
 const NETWORK_TYPE = process.argv[3];
-const LINES_SOURCE: FeatureCollection = require('../assets/geojson/rer-metro-tram.geojson.json');
+const LINES_SOURCE: FeatureCollection = require('../assets/geojson/lines.geojson.json');
 const STATIONS_SOURCE: FeatureCollection = require('../assets/geojson/stations.geojson.json');
 const OUTPUT_FILE = `src/assets/geojson/${NETWORK_NAME}/paris-${NETWORK_NAME}-${NETWORK_TYPE}.geojson.json`;
 const isStations = NETWORK_TYPE === 'stations';
