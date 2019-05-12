@@ -1,29 +1,9 @@
 <div class="container pt-4">
+  <div>{{ lineCoors }}</div>
   <div class="row">
     <div class="col-lg-1"></div>
     <div class="col-lg-10">
-      <mgl-map
-        [style]="'mapbox://styles/mapbox/dark-v9'"
-        [zoom]="[zoom]"
-        [center]="[longitude, latitude]"
-      >
-        <mgl-layer
-          id="metro-lines"
-          type="line"
-          [source]="lineCoords"
-          [paint]="{
-              'line-color': color,
-              'line-width': 2
-            }"
-        >
-        </mgl-layer>
-        <mgl-layer
-          id="metro-stations"
-          type="circle"
-          [source]=stations
-        >
-        </mgl-layer>
-      </mgl-map>
+      <div id="map"></div>
     </div>
     <div class="col-lg-1"></div>
   </div>

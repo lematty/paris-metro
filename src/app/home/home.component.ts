@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NetworkType } from '../models';
 
 @Component({
   selector: 'app-home',
@@ -6,15 +7,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  public network = 'Metro';
+  public network: NetworkType;
+  public line = 'Metro';
 
   constructor() { }
 
   ngOnInit() {
   }
 
-  receiveMessage($event) {
-    this.network = $event;
+  setTitle($event) {
+    this.line = $event;
   }
 
 }

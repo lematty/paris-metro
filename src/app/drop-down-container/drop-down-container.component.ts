@@ -1,6 +1,7 @@
 import { MetroService } from '../services/metro.service';
-import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { METRO, RER, TRAM, BUS, NOCTILIEN } from '../models';
 
 @Component({
   selector: 'app-drop-down-container',
@@ -15,50 +16,33 @@ export class DropDownContainerComponent implements OnInit {
   public noctiliens = [];
   public trams = [];
 
-  public METRO = 'metro';
-  public RER = 'rer';
-  public TRAM = 'tram';
-  public BUS = 'bus';
-  public NOCTILIEN = 'noctilien';
-
-  @Output() network = new EventEmitter<string>();
-
   constructor(private _metroService: MetroService, private router: Router) { }
 
   ngOnInit() {
     this.getMetroLines();
     this.getRerLines();
     this.getTramLines();
+    // TODO: Implement Bus lines
     // this.getBusLines();
     // this.getNoctilienLines();
   }
 
   async getMetroLines() {
-    this.metros = await this._metroService.getAllLineNames('metro');
+    this.metros = await this._metroService.getAllLineNames(METRO);
   }
   async getRerLines() {
-    this.rers = await this._metroService.getAllLineNames('rer');
+    this.rers = await this._metroService.getAllLineNames(RER);
   }
 
   async getTramLines() {
-    this.trams = await this._metroService.getAllLineNames('tram');
+    this.trams = await this._metroService.getAllLineNames(TRAM);
   }
 
   async getBusLines() {
-    this.buses = await this._metroService.getAllLineNames('bus');
+    this.buses = await this._metroService.getAllLineNames(BUS);
   }
 
   async getNoctilienLines() {
-    this.noctiliens = await this._metroService.getAllLineNames('noctilien');
+    this.noctiliens = await this._metroService.getAllLineNames(NOCTILIEN);
   }
-
-  sendNetwork(network: string) {
-    console.log(network);
-    this.network.emit(network);
-  }
-
-  // onSelect(lineName: string) {
-  //   console.log(lineName);
-  //   this.router.navigate(['/map', lineName]);
-  // }
 }

@@ -12,18 +12,13 @@ import { environment } from '../environments/environment';
 import { TrainTramService } from './services/train-tram.service';
 import { TramMapComponent } from './tram-map/tram-map.component';
 import { DetailComponent } from './detail/detail.component';
-import { NgxMapboxGLModule } from 'ngx-mapbox-gl';
 import { HomeComponent } from './home/home.component';
 import { DropDownContainerComponent } from './drop-down-container/drop-down-container.component';
 import { ErrorComponent } from './error/error.component';
 
 const routes: Routes = [
   { path: '', component: MapComponent },
-  { path: 'metro/:line', component: DetailComponent },
-  { path: 'rer/:line', component: DetailComponent },
-  { path: 'tram/:line', component: DetailComponent },
-  { path: 'bus/:line', component: DetailComponent },
-  { path: 'noctilien/:line', component: DetailComponent },
+  { path: ':network/:line', component: DetailComponent },
   { path: '**', component: ErrorComponent }
 ];
 
@@ -44,9 +39,6 @@ const routes: Routes = [
     BrowserModule,
     HttpClientModule,
     NgbModule.forRoot(),
-    NgxMapboxGLModule.withConfig({
-      accessToken: environment.MAPBOX_API_KEY,
-    }),
     RouterModule.forRoot(routes),
   ],
   providers: [

@@ -1,7 +1,4 @@
-agm-map {
-  height: 600px;
-}
-mgl-map {
+#map {
   height: 500px;
   width: 100%;
   text-align: justify;
