@@ -1,3 +1,4 @@
+export * from './color.model';
 export * from './constants';
 export * from './line.model';
 export * from './mapbox-format';

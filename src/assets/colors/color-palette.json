@@ -132,5 +132,289 @@
       "name": "T11",
       "color": "#E74A2B"
     }
+  ],
+  "bus": [
+    {
+        "name": "20",
+        "color": "#ff5a00"
+    },
+    {
+        "name": "21",
+        "color": "#82dc73"
+    },
+    {
+        "name": "22",
+        "color": "#00643c"
+    },
+    {
+        "name": "24",
+        "color": "#a0006e"
+    },
+    {
+        "name": "25",
+        "color": "#ff1400"
+    },
+    {
+        "name": "26",
+        "color": "#ff5a00"
+    },
+    {
+        "name": "27",
+        "color": "#ff5a00"
+    },
+    {
+        "name": "28",
+        "color": "#ff82b4"
+    },
+    {
+        "name": "29",
+        "color": "#82c8e6"
+    },
+    {
+        "name": "30",
+        "color": "#640082"
+    },
+    {
+        "name": "31",
+        "color": "#ffbe00"
+    },
+    {
+        "name": "32",
+        "color": "#6e6e00"
+    },
+    {
+        "name": "35",
+        "color": "#82dc73"
+    },
+    {
+        "name": "38",
+        "color": "#0055c8"
+    },
+    {
+        "name": "39",
+        "color": "#a0006e"
+    },
+    {
+        "name": "40",
+        "color": "#82c8e6"
+    },
+    {
+        "name": "42",
+        "color": "#0055c8"
+    },
+    {
+        "name": "43",
+        "color": "#ff1400"
+    },
+    {
+        "name": "45",
+        "color": "#ff82b4"
+    },
+    {
+        "name": "46",
+        "color": "#d2d200"
+    },
+    {
+        "name": "47",
+        "color": "#ff82b4"
+    },
+    {
+        "name": "48",
+        "color": "#0055c8"
+    },
+    {
+        "name": "52",
+        "color": "#82c8e6"
+    },
+    {
+        "name": "53",
+        "color": "#d2d200"
+    },
+    {
+        "name": "54",
+        "color": "#82c8e6"
+    },
+    {
+        "name": "56",
+        "color": "#a0006e"
+    },
+    {
+        "name": "57",
+        "color": "#6e6e00"
+    },
+    {
+        "name": "58",
+        "color": "#00643c"
+    },
+    {
+        "name": "59",
+        "color": "#dc9600"
+    },
+    {
+        "name": "60",
+        "color": "#ff1400"
+    },
+    {
+        "name": "61",
+        "color": "#00643c"
+    },
+    {
+        "name": "62",
+        "color": "#6e491e"
+    },
+    {
+        "name": "63",
+        "color": "#d2d200"
+    },
+    {
+        "name": "64",
+        "color": "#82dc73"
+    },
+    {
+        "name": "65",
+        "color": "#00643c"
+    },
+    {
+        "name": "66",
+        "color": "#00643c"
+    },
+    {
+        "name": "67",
+        "color": "#ff82b4"
+    },
+    {
+        "name": "68",
+        "color": "#ffbe00"
+    },
+    {
+        "name": "69",
+        "color": "#82c8e6"
+    },
+    {
+        "name": "70",
+        "color": "#ff5a00"
+    },
+    {
+        "name": "71",
+        "color": "#6e491e"
+    },
+    {
+        "name": "72",
+        "color": "#ff1400"
+    },
+    {
+        "name": "73",
+        "color": "#6e491e"
+    },
+    {
+        "name": "74",
+        "color": "#d2d200"
+    },
+    {
+        "name": "75",
+        "color": "#ffbe00"
+    },
+    {
+        "name": "76",
+        "color": "#640082"
+    },
+    {
+        "name": "77",
+        "color": "#0055c8"
+    },
+    {
+        "name": "80",
+        "color": "#ff82b4"
+    },
+    {
+        "name": "81",
+        "color": "#d282be"
+    },
+    {
+        "name": "82",
+        "color": "#ff5a00"
+    },
+    {
+        "name": "83",
+        "color": "#ffbe00"
+    },
+    {
+        "name": "84",
+        "color": "#d282be"
+    },
+    {
+        "name": "85",
+        "color": "#6e491e"
+    },
+    {
+        "name": "86",
+        "color": "#ff1400"
+    },
+    {
+        "name": "87",
+        "color": "#640082"
+    },
+    {
+        "name": "88",
+        "color": "#d2d200"
+    },
+    {
+        "name": "89",
+        "color": "#82c8e6"
+    },
+    {
+        "name": "91",
+        "color": "#dc9600"
+    },
+    {
+        "name": "92",
+        "color": "#ffbe00"
+    },
+    {
+        "name": "93",
+        "color": "#82dc73"
+    },
+    {
+        "name": "94",
+        "color": "#a0006e"
+    },
+    {
+        "name": "95",
+        "color": "#640082"
+    },
+    {
+        "name": "96",
+        "color": "#dc9600"
+    },
+    {
+        "name": "PC",
+        "color": "#0055c8"
+    },
+    {
+        "name": "201",
+        "color": "#6e491e"
+    },
+    {
+        "name": "215",
+        "color": "#82dc73"
+    },
+    {
+        "name": "325",
+        "color": "#82c8e6"
+    },
+    {
+        "name": "350",
+        "color": "#640082"
+    },
+    {
+        "name": "528",
+        "color": "#ff645a"
+    }
+],
+   "noctilien": [
+    {
+      "name": "ALL",
+      "color": "#FFCD02"
+    }
   ]
 }
