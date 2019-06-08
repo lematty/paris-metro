@@ -28,6 +28,22 @@ ex. For metro lines run `npm run metro:lines`
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
+## Docker Postgres Database
+
+To start the database container, just simply run the following commands:
+```
+cd csvdatabase/
+docker-compose up
+```
+
+If you need to make changes to the CSVs that created this database, you can recreate the files:
+```
+cd csvdatabase/
+./createdb.bash
+docker-compose down -v
+docker-compose up
+```
+
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
