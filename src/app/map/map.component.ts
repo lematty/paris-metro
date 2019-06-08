@@ -6,7 +6,6 @@ import { environment } from 'src/environments/environment';
 import { METRO, LINES, STATIONS, NetworkType } from '../models';
 import { ActivatedRoute } from '@angular/router';
 
-
 @Component({
   selector: 'app-map',
   templateUrl: './map.component.html',
@@ -28,7 +27,7 @@ export class MapComponent implements OnInit, AfterViewInit {
   firstLoad = true;
 
   constructor(private transportDataService: TransportDataService, private route: ActivatedRoute) {
-    Object.getOwnPropertyDescriptor(mapboxgl.Map, "accessToken").set(environment.MAPBOX_API_KEY);
+    (mapboxgl as typeof mapboxgl).accessToken = environment.MAPBOX_API_KEY;
   }
 
   ngOnInit() {}
