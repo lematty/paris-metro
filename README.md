@@ -8,7 +8,16 @@ This project is to have a collection of all transportation lines and stations in
 
 ## Development server
 
-Run `npm run start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `npm run dev` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+You will need 2 API keys to run the application, Google maps and Mapbox. Place your API keys in the `environments/environments.ts` as shown below:
+
+```
+export const environment = {
+  GOOGLE_MAPS_API_KEY: 'XXX',
+  MAPBOX_API_KEY: 'XXX'
+};
+```
 
 ## Scripts
 
