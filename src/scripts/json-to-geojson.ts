@@ -17,7 +17,7 @@ function searchForTransportType(): FeatureCollection {
     if (!alreadyAppears) {
       colors.push({ name: line.id, color: line.color_bg });
     }
-    return {
+    const feat: Feature = {
       type: 'Feature',
       geometry: {
         type: 'LineString',
@@ -25,6 +25,8 @@ function searchForTransportType(): FeatureCollection {
       },
       properties: delete line.snap && { ...line },
     };
+
+    return feat;
   });
   console.log(colors);
   return {
