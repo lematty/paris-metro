@@ -28,7 +28,7 @@ export class MapComponent implements OnInit, AfterViewInit {
   firstLoad = true;
 
   constructor(private transportDataService: TransportDataService, private route: ActivatedRoute) {
-    (mapboxgl as typeof mapboxgl).accessToken = environment.MAPBOX_API_KEY;
+    Object.getOwnPropertyDescriptor(mapboxgl.Map, "accessToken").set(environment.MAPBOX_API_KEY);
   }
 
   ngOnInit() {}
